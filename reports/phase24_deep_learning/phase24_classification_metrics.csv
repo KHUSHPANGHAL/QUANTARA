@@ -1,0 +1,9 @@
+model_name,evaluation_window,sample_count,balanced_accuracy_pct,balanced_acc_95ci,macro_f1_pct,macro_f1_95ci,standard_accuracy_pct,log_loss,brier_score,down_precision_pct,down_recall_pct,up_precision_pct,up_recall_pct,confusion_matrix
+Majority Baseline (Naive),VALIDATION,1148,50.0,"[50.0%, 50.0%]",33.87,"[32.6%, 35.1%]",51.22,17.5823,0.4878,0.0,0.0,51.22,100.0,"[[0, 560], [0, 588]]"
+Majority Baseline (Naive),REUSED_TEST,1286,50.0,"[50.0%, 50.0%]",28.16,"[26.8%, 29.5%]",39.19,21.9177,0.6081,0.0,0.0,39.19,100.0,"[[0, 782], [0, 504]]"
+Logistic Regression (Phase 13 Baseline),VALIDATION,1148,57.53,"[54.9%, 60.1%]",56.03,"[53.1%, 58.8%]",58.01,0.6858,0.2463,61.34,37.68,56.59,77.38,"[[211, 349], [133, 455]]"
+Logistic Regression (Phase 13 Baseline),REUSED_TEST,1286,44.56,"[42.2%, 47.2%]",40.02,"[37.6%, 42.6%]",40.51,0.7138,0.2603,52.2,25.83,35.48,63.29,"[[202, 580], [185, 319]]"
+LSTM Classifier (60d Sequence),VALIDATION,1148,51.25,"[48.5%, 54.1%]",49.46,"[46.4%, 52.5%]",51.74,0.7127,0.2594,50.87,31.25,52.11,71.26,"[[175, 385], [169, 419]]"
+LSTM Classifier (60d Sequence),REUSED_TEST,1286,48.64,"[46.1%, 51.0%]",42.7,"[39.9%, 45.3%]",43.62,0.7512,0.2784,58.36,25.45,38.31,71.83,"[[199, 583], [142, 362]]"
+GRU Classifier (60d Sequence),VALIDATION,1148,53.13,"[50.5%, 55.9%]",51.11,"[48.2%, 54.2%]",53.66,0.7087,0.2574,54.29,31.61,53.41,74.66,"[[177, 383], [149, 439]]"
+GRU Classifier (60d Sequence),REUSED_TEST,1286,50.27,"[47.7%, 52.7%]",43.61,"[40.9%, 46.3%]",44.79,0.7493,0.2774,61.32,24.94,39.36,75.6,"[[195, 587], [123, 381]]"

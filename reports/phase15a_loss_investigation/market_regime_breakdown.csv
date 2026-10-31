@@ -1,0 +1,4 @@
+market_regime,total_trades,winning_trades,losing_trades,win_rate_pct,gross_pnl_inr,commissions_inr,net_pnl_inr,avg_pnl_per_trade_inr,profit_factor,share_of_total_losses_pct
+BULL,9,1,8,11.11,-13654.41,780.12,-14434.53,-1603.84,0.01,56.18
+NEUTRAL,3,1,2,33.33,-2209.88,237.73,-2447.61,-815.87,0.43,16.55
+BEAR,15,7,8,46.67,-224.07,1241.85,-578.93,-38.6,0.92,27.27

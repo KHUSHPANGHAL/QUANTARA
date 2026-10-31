@@ -1,0 +1,398 @@
+{
+  "objective": "Improve prediction quality beyond 20-day binary Logistic Regression baseline (52.63%)",
+  "benchmark_reproduction": {
+    "status": "REPRODUCED",
+    "test_balanced_accuracy": 0.526290951163074,
+    "test_accuracy": 0.4727838258164852,
+    "test_macro_f1": 0.46318091480668777,
+    "test_log_loss": 0.7018632504210056,
+    "ci_95_bal_acc": [
+      0.502533702829279,
+      0.5489414543314199
+    ],
+    "ci_95_macro_f1": [
+      0.4346925963596778,
+      0.4910635997776832
+    ],
+    "confusion_matrix": [
+      [
+        218,
+        564
+      ],
+      [
+        114,
+        390
+      ]
+    ],
+    "down_precision": 0.6566265060240963,
+    "up_precision": 0.4088050314465409,
+    "coverage_pct": 70.81497797356829
+  },
+  "experiment_a_improved_lightgbm": {
+    "best_feature_set": "group_1_trend",
+    "best_params": {
+      "max_depth": 5,
+      "num_leaves": 23,
+      "min_child_samples": 30,
+      "learning_rate": 0.02,
+      "reg_alpha": 2.0,
+      "reg_lambda": 10.0,
+      "colsample_bytree": 0.6,
+      "subsample": 0.7
+    },
+    "val_balanced_accuracy": 0.5509778911564626,
+    "test_balanced_accuracy": 0.4635955831608006,
+    "test_accuracy": 0.4385692068429238,
+    "test_macro_f1": 0.4384333819605225,
+    "test_log_loss": 0.703081573917739,
+    "ci_95_bal_acc": [
+      0.43563521348785833,
+      0.488068997690276
+    ],
+    "ci_95_macro_f1": [
+      0.4102398485511119,
+      0.462439979012168
+    ],
+    "confusion_matrix": [
+      [
+        272,
+        510
+      ],
+      [
+        212,
+        292
+      ]
+    ],
+    "down_precision": 0.5619834710743802,
+    "up_precision": 0.3640897755610973
+  },
+  "experiment_b_tft": {
+    "architecture_requested": "Temporal Fusion Transformer (TFT)",
+    "framework_requirements": [
+      "torch >= 2.0.0",
+      "pytorch_forecasting >= 0.10.0"
+    ],
+    "runtime_environment": "Python 3.14 (Windows x86_64)",
+    "dependency_check_results": {
+      "torch": "NOT INSTALLED (No wheels exist on PyPI for Python 3.14 on Windows)",
+      "pytorch_forecasting": "NOT INSTALLED (Blocked by torch dependency)",
+      "cuda_acceleration": "UNAVAILABLE"
+    },
+    "technical_limitation_explanation": "Temporal Fusion Transformer requires PyTorch and PyTorch-Forecasting. As of October 2026, PyTorch official binary wheels for Windows only support up to Python 3.12 (with experimental 3.13 preview). Compiling PyTorch from C++ source inside an offline air-gapped sandbox without a local MSVC C++ toolchain and CUDA SDK is impossible. In strict adherence to Phase 13 instructions ('If TFT is impractical or unsupported, report why rather than silently substituting another architecture'), TFT is formally marked as ENVIRONMENT_UNSUPPORTED without unauthorized architectural substitution.",
+    "status": "UNSUPPORTED_BY_ENVIRONMENT"
+  },
+  "experiment_c_calibrated_ensemble": {
+    "weight_lr": 0.0,
+    "weight_lgb": 1.0,
+    "val_balanced_accuracy": 0.5509778911564626,
+    "test_balanced_accuracy": 0.4635955831608006,
+    "test_accuracy": 0.4385692068429238,
+    "test_macro_f1": 0.4384333819605225,
+    "test_log_loss": 0.703081573917739,
+    "ci_95_bal_acc": [
+      0.43563521348785833,
+      0.488068997690276
+    ],
+    "ci_95_macro_f1": [
+      0.4102398485511119,
+      0.462439979012168
+    ],
+    "confusion_matrix": [
+      [
+        272,
+        510
+      ],
+      [
+        212,
+        292
+      ]
+    ],
+    "down_precision": 0.5619834710743802,
+    "up_precision": 0.3640897755610973
+  },
+  "acceptance_evaluation": {
+    "acceptance_criteria": "Beat 52.63% test balanced accuracy on untouched test set with statistical confidence",
+    "baseline_bal_acc": 0.526290951163074,
+    "best_model_bal_acc": 0.526290951163074,
+    "improvement_found": false,
+    "verdict": "RETAIN_BASELINE",
+    "justification": "Neither tuned LightGBM nor the Calibrated Ensemble beat the 52.63% baseline by the required statistical threshold. The baseline Logistic Regression remains the most robust model."
+  },
+  "economic_evaluation": {
+    "logistic_regression": {
+      "final_equity": 75591.2660654905,
+      "total_return_pct": -24.408733934509495,
+      "cagr_pct": -24.749137131841003,
+      "max_drawdown_pct": 28.009200625328294,
+      "sharpe_ratio": -1.9791361965862502,
+      "total_trades": 42,
+      "win_rate_pct": 40.476190476190474,
+      "commissions_paid": 3538.208895050916
+    },
+    "improved_lightgbm": {
+      "final_equity": 69637.65268404488,
+      "total_return_pct": -30.362347315955123,
+      "cagr_pct": -30.767605671537133,
+      "max_drawdown_pct": 33.837228939598354,
+      "sharpe_ratio": -2.319796093566632,
+      "total_trades": 61,
+      "win_rate_pct": 37.704918032786885,
+      "commissions_paid": 4908.332096411851
+    },
+    "calibrated_ensemble": {
+      "final_equity": 69637.65268404488,
+      "total_return_pct": -30.362347315955123,
+      "cagr_pct": -30.767605671537133,
+      "max_drawdown_pct": 33.837228939598354,
+      "sharpe_ratio": -2.319796093566632,
+      "total_trades": 61,
+      "win_rate_pct": 37.704918032786885,
+      "commissions_paid": 4908.332096411851
+    }
+  },
+  "stratification": {
+    "stock_breakdown_lr": [
+      {
+        "Symbol": "BHARTIARTL.NS",
+        "sample_count": 144,
+        "accuracy": 52.08,
+        "balanced_accuracy": 56.79,
+        "macro_f1": 0.5034
+      },
+      {
+        "Symbol": "HDFCBANK.NS",
+        "sample_count": 151,
+        "accuracy": 43.05,
+        "balanced_accuracy": 60.77,
+        "macro_f1": 0.4274
+      },
+      {
+        "Symbol": "ICICIBANK.NS",
+        "sample_count": 163,
+        "accuracy": 57.67,
+        "balanced_accuracy": 55.97,
+        "macro_f1": 0.555
+      },
+      {
+        "Symbol": "INFY.NS",
+        "sample_count": 185,
+        "accuracy": 56.22,
+        "balanced_accuracy": 59.94,
+        "macro_f1": 0.5449
+      },
+      {
+        "Symbol": "ITC.NS",
+        "sample_count": 130,
+        "accuracy": 16.15,
+        "balanced_accuracy": 50.45,
+        "macro_f1": 0.1432
+      },
+      {
+        "Symbol": "RELIANCE.NS",
+        "sample_count": 154,
+        "accuracy": 35.06,
+        "balanced_accuracy": 44.28,
+        "macro_f1": 0.3467
+      },
+      {
+        "Symbol": "SBIN.NS",
+        "sample_count": 178,
+        "accuracy": 52.81,
+        "balanced_accuracy": 53.36,
+        "macro_f1": 0.528
+      },
+      {
+        "Symbol": "TCS.NS",
+        "sample_count": 181,
+        "accuracy": 55.8,
+        "balanced_accuracy": 63.72,
+        "macro_f1": 0.5464
+      }
+    ],
+    "stock_breakdown_lgb": [
+      {
+        "Symbol": "BHARTIARTL.NS",
+        "sample_count": 144,
+        "accuracy": 43.75,
+        "balanced_accuracy": 46.07,
+        "macro_f1": 0.4353
+      },
+      {
+        "Symbol": "HDFCBANK.NS",
+        "sample_count": 151,
+        "accuracy": 43.05,
+        "balanced_accuracy": 60.77,
+        "macro_f1": 0.4274
+      },
+      {
+        "Symbol": "ICICIBANK.NS",
+        "sample_count": 163,
+        "accuracy": 42.94,
+        "balanced_accuracy": 41.86,
+        "macro_f1": 0.4168
+      },
+      {
+        "Symbol": "INFY.NS",
+        "sample_count": 185,
+        "accuracy": 54.59,
+        "balanced_accuracy": 54.64,
+        "macro_f1": 0.5437
+      },
+      {
+        "Symbol": "ITC.NS",
+        "sample_count": 130,
+        "accuracy": 28.46,
+        "balanced_accuracy": 49.55,
+        "macro_f1": 0.2836
+      },
+      {
+        "Symbol": "RELIANCE.NS",
+        "sample_count": 154,
+        "accuracy": 29.87,
+        "balanced_accuracy": 35.95,
+        "macro_f1": 0.2982
+      },
+      {
+        "Symbol": "SBIN.NS",
+        "sample_count": 178,
+        "accuracy": 47.19,
+        "balanced_accuracy": 48.69,
+        "macro_f1": 0.4686
+      },
+      {
+        "Symbol": "TCS.NS",
+        "sample_count": 181,
+        "accuracy": 54.14,
+        "balanced_accuracy": 58.3,
+        "macro_f1": 0.5412
+      }
+    ],
+    "stock_breakdown_ens": [
+      {
+        "Symbol": "BHARTIARTL.NS",
+        "sample_count": 144,
+        "accuracy": 43.75,
+        "balanced_accuracy": 46.07,
+        "macro_f1": 0.4353
+      },
+      {
+        "Symbol": "HDFCBANK.NS",
+        "sample_count": 151,
+        "accuracy": 43.05,
+        "balanced_accuracy": 60.77,
+        "macro_f1": 0.4274
+      },
+      {
+        "Symbol": "ICICIBANK.NS",
+        "sample_count": 163,
+        "accuracy": 42.94,
+        "balanced_accuracy": 41.86,
+        "macro_f1": 0.4168
+      },
+      {
+        "Symbol": "INFY.NS",
+        "sample_count": 185,
+        "accuracy": 54.59,
+        "balanced_accuracy": 54.64,
+        "macro_f1": 0.5437
+      },
+      {
+        "Symbol": "ITC.NS",
+        "sample_count": 130,
+        "accuracy": 28.46,
+        "balanced_accuracy": 49.55,
+        "macro_f1": 0.2836
+      },
+      {
+        "Symbol": "RELIANCE.NS",
+        "sample_count": 154,
+        "accuracy": 29.87,
+        "balanced_accuracy": 35.95,
+        "macro_f1": 0.2982
+      },
+      {
+        "Symbol": "SBIN.NS",
+        "sample_count": 178,
+        "accuracy": 47.19,
+        "balanced_accuracy": 48.69,
+        "macro_f1": 0.4686
+      },
+      {
+        "Symbol": "TCS.NS",
+        "sample_count": 181,
+        "accuracy": 54.14,
+        "balanced_accuracy": 58.3,
+        "macro_f1": 0.5412
+      }
+    ],
+    "regime_breakdown_lr": [
+      {
+        "market_regime": "BEAR_REGIME",
+        "sample_count": 493,
+        "accuracy": 52.33,
+        "balanced_accuracy": 57.12,
+        "macro_f1": 0.5091
+      },
+      {
+        "market_regime": "BULL_REGIME",
+        "sample_count": 631,
+        "accuracy": 42.63,
+        "balanced_accuracy": 48.68,
+        "macro_f1": 0.4219
+      },
+      {
+        "market_regime": "NEUTRAL_REGIME",
+        "sample_count": 162,
+        "accuracy": 50.0,
+        "balanced_accuracy": 52.92,
+        "macro_f1": 0.4784
+      }
+    ],
+    "regime_breakdown_lgb": [
+      {
+        "market_regime": "BEAR_REGIME",
+        "sample_count": 493,
+        "accuracy": 45.64,
+        "balanced_accuracy": 48.33,
+        "macro_f1": 0.4539
+      },
+      {
+        "market_regime": "BULL_REGIME",
+        "sample_count": 631,
+        "accuracy": 42.0,
+        "balanced_accuracy": 44.14,
+        "macro_f1": 0.4189
+      },
+      {
+        "market_regime": "NEUTRAL_REGIME",
+        "sample_count": 162,
+        "accuracy": 45.68,
+        "balanced_accuracy": 47.22,
+        "macro_f1": 0.4527
+      }
+    ],
+    "regime_breakdown_ens": [
+      {
+        "market_regime": "BEAR_REGIME",
+        "sample_count": 493,
+        "accuracy": 45.64,
+        "balanced_accuracy": 48.33,
+        "macro_f1": 0.4539
+      },
+      {
+        "market_regime": "BULL_REGIME",
+        "sample_count": 631,
+        "accuracy": 42.0,
+        "balanced_accuracy": 44.14,
+        "macro_f1": 0.4189
+      },
+      {
+        "market_regime": "NEUTRAL_REGIME",
+        "sample_count": 162,
+        "accuracy": 45.68,
+        "balanced_accuracy": 47.22,
+        "macro_f1": 0.4527
+      }
+    ]
+  }
+}

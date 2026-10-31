@@ -1,0 +1,55 @@
+{
+  "source_file": "data/raw/multi_stock_historical.csv",
+  "source_sha256": "a30f9ad861cba8e44b1e1aa317d6e0216a0a519963b5c9d254482e043d52ff91",
+  "no_synthetic_data": true,
+  "price_basis_for_returns_and_indicators": "Adj Close",
+  "split_method": "chronological global date split; purge samples whose target endpoint crosses a split boundary",
+  "train_cutoff_inclusive": "2024-10-23",
+  "validation_cutoff_inclusive": "2025-10-21",
+  "latest_source_date": "2026-10-23",
+  "horizons_trading_sessions": [
+    1,
+    5,
+    20
+  ],
+  "classification_thresholds": {
+    "1d": 0.005,
+    "5d": 0.01,
+    "20d": 0.02
+  },
+  "threshold_note": "Initial configurable modelling assumptions, not externally authenticated standards. Tune only with train/validation data.",
+  "model_input_features": [
+    "daily_return_1d",
+    "return_5d",
+    "return_20d",
+    "adj_close_vs_sma20",
+    "adj_close_vs_sma50",
+    "adj_close_vs_ema12",
+    "adj_close_vs_ema20",
+    "adj_close_vs_ema26",
+    "rsi_14",
+    "macd_pct",
+    "macd_signal_pct",
+    "macd_histogram_pct",
+    "bollinger_percent_b",
+    "bollinger_width_pct",
+    "volatility_20d_annualized",
+    "log_volume_change",
+    "volume_vs_sma20",
+    "intraday_range_pct",
+    "open_gap_pct",
+    "close_location_in_range"
+  ],
+  "not_model_inputs": [
+    "Date",
+    "Symbol",
+    "Company",
+    "forward_return_1d",
+    "forward_return_5d",
+    "forward_return_20d",
+    "Target_1d",
+    "Target_5d",
+    "Target_20d",
+    "sample_id"
+  ]
+}

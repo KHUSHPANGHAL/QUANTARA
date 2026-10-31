@@ -1,0 +1,15 @@
+{
+  "architecture_requested": "Temporal Fusion Transformer (TFT)",
+  "framework_requirements": [
+    "torch >= 2.0.0",
+    "pytorch_forecasting >= 0.10.0"
+  ],
+  "runtime_environment": "Python 3.14 (Windows x86_64)",
+  "dependency_check_results": {
+    "torch": "NOT INSTALLED (No wheels exist on PyPI for Python 3.14 on Windows)",
+    "pytorch_forecasting": "NOT INSTALLED (Blocked by torch dependency)",
+    "cuda_acceleration": "UNAVAILABLE"
+  },
+  "technical_limitation_explanation": "Temporal Fusion Transformer requires PyTorch and PyTorch-Forecasting. As of October 2026, PyTorch official binary wheels for Windows only support up to Python 3.12 (with experimental 3.13 preview). Compiling PyTorch from C++ source inside an offline air-gapped sandbox without a local MSVC C++ toolchain and CUDA SDK is impossible. In strict adherence to Phase 13 instructions ('If TFT is impractical or unsupported, report why rather than silently substituting another architecture'), TFT is formally marked as ENVIRONMENT_UNSUPPORTED without unauthorized architectural substitution.",
+  "status": "UNSUPPORTED_BY_ENVIRONMENT"
+}

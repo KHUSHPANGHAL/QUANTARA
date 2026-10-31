@@ -1,0 +1,46 @@
+MULTI-STOCK FEATURE ENGINEERING REPORT
+=============================================
+Input rows: 19776
+Feature dataset rows: 19376
+Companies: 8
+Threshold: +/- 0.50%
+Train rows: 15496
+Test rows: 3880
+
+Target counts:
+Target
+UP      6665
+DOWN    6377
+HOLD    6334
+
+Target counts by company:
+Symbol         Target
+BHARTIARTL.NS  DOWN      841
+               HOLD      739
+               UP        842
+HDFCBANK.NS    DOWN      727
+               HOLD      926
+               UP        769
+ICICIBANK.NS   DOWN      781
+               HOLD      786
+               UP        855
+INFY.NS        DOWN      809
+               HOLD      742
+               UP        871
+ITC.NS         DOWN      799
+               HOLD      847
+               UP        776
+RELIANCE.NS    DOWN      824
+               HOLD      738
+               UP        860
+SBIN.NS        DOWN      825
+               HOLD      710
+               UP        887
+TCS.NS         DOWN      771
+               HOLD      846
+               UP        805
+
+Model input features:
+Open, High, Low, Close, Volume, Daily_Return, SMA_20, SMA_50, EMA_12, EMA_20, EMA_26, RSI_14, MACD, MACD_Signal, MACD_Histogram, BB_Middle, BB_Upper, BB_Lower, Volatility_20, Volume_SMA_20, High_Low_Range
+
+Do not use Target or Next_Day_Return as model input features.

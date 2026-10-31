@@ -1,0 +1,8 @@
+check_id,dimension,observed_value,expected_value,status,notes
+DATA_C1,Stock Universe List,"BHARTIARTL.NS, HDFCBANK.NS, ICICIBANK.NS, INFY.NS, ITC.NS, RELIANCE.NS, SBIN.NS, TCS.NS","BHARTIARTL.NS, HDFCBANK.NS, ICICIBANK.NS, INFY.NS, ITC.NS, RELIANCE.NS, SBIN.NS, TCS.NS",VERIFIED_PASSED,Authentic 8 stocks verified. Contains ITC.NS (NOT LT.NS).
+DATA_C2,Historical Typo Reconciliation,Documentation typo in Phase 15-20 text ('LT'),Documentation matches underlying code ('ITC'),REPRODUCED_WITH_DOCUMENTED_DISCREPANCY,Underlying data and code always executed 100% on ITC.NS.
+DATA_C3,Total Observations,19776,"19,776 rows",VERIFIED_PASSED,"8 stocks * 2,472 sessions"
+DATA_C4,Missing / Null Prices,0,0 nulls,VERIFIED_PASSED,Zero missing values across OHLCV
+DATA_C5,Duplicate Sessions,0,0 duplicates,VERIFIED_PASSED,Strict 1-to-1 session mapping
+DATA_C6,Price Bar Geometry (OHLC),"H<L: 0, Open: 0, Close: 0",0 invalid bars,VERIFIED_PASSED,All bars strictly bounded by High and Low
+DATA_C7,Trading Volume Integrity,0,0 negative,VERIFIED_PASSED,All volumes authentic and non-negative

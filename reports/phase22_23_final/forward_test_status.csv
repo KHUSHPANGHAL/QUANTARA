@@ -1,0 +1,5 @@
+dimension,audit_value,session_count,calendar_days,chronology_classification,evidentiary_status,notes
+Forward Test Window,2026-09-23 to 2026-10-23,21,30,Category 2: Pseudo-Out-of-Sample Holdout Replay,CHRONOLOGY_VERIFIED_AS_PSEUDO_OOS,"Code was frozen on 2026-10-29. Historical price bars up to 2026-10-23 were on disk when frozen. Unlabelled by 20d forward horizon, but historical replay rather than contemporaneous real-time logging."
+Real-Time Prospective Logging,Post-2026-10-29 Sessions,0,0,Category 3: Genuine Contemporaneous Forward Test,READY_FOR_COMMENCEMENT,Requires accumulating live market observations going forward under append-only ledger protocol.
+Strategy Parameter Freeze,"Rules D, E, F Frozen",21,30,SHA-256 Hashes Documented,VERIFIED_FROZEN,Zero hyperparameter tuning or feature changes permitted.
+Sample Sufficiency,"N=21 sessions, 1 trade in Rule E, 0 trades in D/F",21,30,Preliminary / Insufficient,INSUFFICIENT_FOR_COMMERCIAL_CLAIMS,A minimum of 50-100 closed prospective trades across 6-12 months required for statistical edge.

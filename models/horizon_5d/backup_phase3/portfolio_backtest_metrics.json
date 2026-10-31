@@ -1,0 +1,66 @@
+{
+  "parameters": {
+    "starting_capital": 100000.0,
+    "max_positions": 3,
+    "slippage": 0.0005,
+    "buy_fee": 0.00035,
+    "sell_fee": 0.00135,
+    "max_hold_sessions": 5,
+    "cash_yield_annual": 0.065,
+    "start_date": "2025-10-23",
+    "end_date": "2026-10-23",
+    "total_trading_sessions": 248
+  },
+  "logistic_regression": {
+    "initial_equity": 100000.0,
+    "final_equity": 95939.48084678767,
+    "total_return_pct": -4.060519153212328,
+    "cagr_pct": -4.124641925128314,
+    "max_drawdown_pct": 15.067863227615439,
+    "annualized_volatility_pct": 15.375066482935832,
+    "sharpe_ratio": -0.6071682489770961,
+    "total_trades_completed": 127,
+    "win_rate_pct": 47.24409448818898,
+    "profit_factor": 0.9215359372590777,
+    "total_commissions_paid": 6480.263402373466
+  },
+  "lightgbm": {
+    "initial_equity": 100000.0,
+    "final_equity": 67724.3926835589,
+    "total_return_pct": -32.27560731644111,
+    "cagr_pct": -32.69997868566008,
+    "max_drawdown_pct": 35.647525668084874,
+    "annualized_volatility_pct": 15.525631500287234,
+    "sharpe_ratio": -2.876888984521962,
+    "total_trades_completed": 177,
+    "win_rate_pct": 38.983050847457626,
+    "profit_factor": 0.5035491496622059,
+    "total_commissions_paid": 7965.910382786875
+  },
+  "buy_and_hold_benchmark": {
+    "initial_equity": 99303.67835613208,
+    "final_equity": 83573.60869349817,
+    "total_return_pct": -15.840369584519587,
+    "cagr_pct": -16.07413681255647,
+    "max_drawdown_pct": 23.510509518417887,
+    "annualized_volatility_pct": 13.384944861247034,
+    "sharpe_ratio": -1.7126111305457676,
+    "total_trades_completed": 8,
+    "win_rate_pct": 25.0,
+    "profit_factor": 0.03646580116939667,
+    "total_commissions_paid": 143.81125086830292
+  },
+  "cash_benchmark": {
+    "initial_equity": 100000.0,
+    "final_equity": 106367.01135373219,
+    "total_return_pct": 6.367011353732188,
+    "cagr_pct": 6.472959819963009,
+    "max_drawdown_pct": 0.0,
+    "annualized_volatility_pct": 0.025193873624041054,
+    "sharpe_ratio": -1.0080322575483707,
+    "total_trades_completed": 0,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_commissions_paid": 0.0
+  }
+}

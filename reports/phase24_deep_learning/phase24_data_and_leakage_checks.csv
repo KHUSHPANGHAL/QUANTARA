@@ -1,0 +1,7 @@
+check_id,dimension,passing_criteria,observed_value,status
+LEAK_C1,Chronological Split Non-Overlap,Train < Validation < Test strict temporal ordering,Train: 2017-01-03 to 2024-09-23 | Val: 2024-10-24 to 2025-09-19 | Test: 2025-10-23 to 2026-09-22,VERIFIED_PASSED
+LEAK_C2,Target Horizon Embargo Purging,20-day embargo gap between split boundaries,"Purged gaps: 21 trading days (Sep 24 to Oct 23, 2024) and 22 trading days (Sep 20 to Oct 22, 2025)",VERIFIED_PASSED
+LEAK_C3,Scaler Fit Isolation,StandardScaler fitted strictly on training data features,Fitted on features <= 2024-09-23. Zero future statistics leaked.,VERIFIED_PASSED
+LEAK_C4,Sequence Temporal Alignment,All features in sequence L=60 derived strictly from dates <= session t,Row indices [t-59 : t] contain zero future bars. Target enters at t+1 Open.,VERIFIED_PASSED
+LEAK_C5,Cross-Stock Contamination Check,Sequences constructed independently per stock,Groupby('Symbol') preserves strict single-stock continuity.,VERIFIED_PASSED
+LEAK_C6,Test Data Hyperparameter Isolation,Early stopping and model checkpointing monitor validation loss only,Test data strictly evaluated once on best validation checkpoints.,VERIFIED_PASSED

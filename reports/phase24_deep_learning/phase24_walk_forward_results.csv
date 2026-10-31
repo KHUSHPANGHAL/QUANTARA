@@ -1,0 +1,6 @@
+fold_name,test_window,market_regime,test_samples,lr_balanced_acc_pct,lr_macro_f1_pct,lstm_balanced_acc_pct,lstm_macro_f1_pct,gru_balanced_acc_pct,gru_macro_f1_pct
+Fold 1: 2022 Shock,2022-01-01 to 2022-12-31,Inflation & Global Rate Hikes,1548,52.11,52.0,59.29,59.25,60.11,60.1
+Fold 2: 2023 Recovery,2023-01-01 to 2023-12-31,Broad Post-Correction Recovery,1417,50.17,49.81,54.48,54.41,54.22,54.16
+Fold 3: 2024 Bull Run,2024-01-01 to 2024-09-23,Strong Domestic Equity Liquidity,1046,50.71,47.83,57.11,50.16,55.27,48.79
+Fold 4: 2024-2025 Val,2024-10-24 to 2025-09-19,Sideways Consolidation,1148,57.53,56.03,51.25,49.46,53.13,51.11
+Fold 5: 2025-2026 Test,2025-10-23 to 2026-09-22,Severe Large-Cap Downtrend,1286,44.56,40.02,48.64,42.7,50.27,43.61

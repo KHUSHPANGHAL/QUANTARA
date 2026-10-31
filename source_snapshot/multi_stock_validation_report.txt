@@ -1,0 +1,29 @@
+MULTI-STOCK VALIDATION REPORT
+Total rows: 19776
+Unique companies: 8
+Duplicate company-date rows: 0
+Invalid dates: 0
+Companies with dates out of order: 0
+Rows with inconsistent OHLC prices: 0
+
+Rows per company:
+Symbol
+BHARTIARTL.NS    2472
+HDFCBANK.NS      2472
+ICICIBANK.NS     2472
+INFY.NS          2472
+ITC.NS           2472
+RELIANCE.NS      2472
+SBIN.NS          2472
+TCS.NS           2472
+
+Missing values:
+Date         0
+Adj Close    0
+Close        0
+High         0
+Low          0
+Open         0
+Volume       0
+Symbol       0
+Company      0

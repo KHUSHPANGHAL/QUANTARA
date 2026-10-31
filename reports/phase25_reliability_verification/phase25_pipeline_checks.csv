@@ -1,0 +1,6 @@
+check_id,description,expected,observed,status
+PIPE_C1,Phase 24 Artifact File Completeness,All 10 Phase 24 models and reports exist,All 10 files present and accessible,PASSED
+PIPE_C2,PyTorch Checkpoint Loading & Forward Pass,"Weights load cleanly into model classes, forward shape (batch, 2)","LSTM (56,162 params) and GRU (42,658 params) loaded successfully, forward pass verified",PASSED
+PIPE_C3,StandardScaler Feature Consistency,15 features corresponding to group_1_trend,"StandardScaler loaded with 15 features; mean shape=(15,)",PASSED
+PIPE_C4,Prediction Log Alignment with Ground Truth y_test,Exact match of 1286 observations and 1-to-1 binary targets,"Rows=1286, Exact Target Match=True",PASSED
+PIPE_C5,Sequence Lookback Temporal Integrity,Lookback [t-59:t] contains strictly historical data <= date t,Verified backward slice indexing pos-SEQ_LEN+1:pos+1 grouped strictly by Symbol,PASSED

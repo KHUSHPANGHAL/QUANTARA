@@ -1,0 +1,21 @@
+strategy_id,strategy_name,evaluation_window,executed_trades,trade_win_rate_pct,win_rate_95pct_ci,avg_win_inr,avg_loss_inr,realized_payoff_ratio,net_expectancy_inr,profit_factor,total_commissions_inr,final_equity_inr,net_return_pct,max_drawdown_pct,sharpe_ratio,mean_equity_exposure_pct,time_in_full_cash_pct
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,84401.47,-15.6,23.92,-1.63,100.0,0.0
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,106393.6,6.37,0.0,-9.02,0.0,100.0
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,105115.38,5.09,0.0,-71.53,0.0,100.0
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,100000.0,0.0,0.0,0.0,0.0,100.0
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),22,36.36,"[19.7%, 57.0%]",1248.65,-1513.24,0.8252,-508.92,0.47,1978.45,88803.86,-11.2,16.82,-1.26,58.96,29.44
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),14,7.14,"[1.3%, 31.5%]",2345.84,-1367.79,1.7151,-1102.53,0.13,1261.44,87756.26,-12.26,15.05,-1.92,32.7,56.05
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),15,13.33,"[3.7%, 37.9%]",1329.37,-1367.79,0.9719,-1008.16,0.15,1359.6,87935.58,-12.08,15.27,-1.86,35.79,48.39
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),8,12.5,"[2.2%, 47.1%]",150.76,-794.47,0.1898,-676.32,0.03,762.9,98627.4,-1.39,5.74,-1.18,19.45,57.66
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),16,50.0,"[28.0%, 72.0%]",1083.62,-1331.12,0.8141,-123.75,0.81,1527.58,101212.27,1.19,5.53,-0.63,36.86,59.68
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),6,16.67,"[3.0%, 56.4%]",1288.14,-1744.74,0.7383,-1239.26,0.15,567.34,97163.38,-2.86,6.6,-2.59,7.71,79.44
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,101570.45,1.57,12.59,-0.32,100.0,0.0
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,106367.01,6.34,0.0,-9.0,0.0,100.0
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,105094.24,5.07,0.0,-71.39,0.0,100.0
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),0,0.0,N/A,0.0,0.0,0.0,0.0,0.0,0.0,100000.0,0.0,0.0,0.0,0.0,100.0
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),18,77.78,"[54.8%, 91.0%]",1182.1,-884.57,1.3364,722.84,4.68,1740.04,113011.13,13.01,6.41,0.59,45.04,35.22
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),12,75.0,"[46.8%, 91.1%]",1542.47,-1657.84,0.9304,742.39,2.79,1167.17,112682.73,12.66,5.85,0.62,29.74,59.92
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),12,75.0,"[46.8%, 91.1%]",1542.47,-1657.84,0.9304,742.39,2.79,1167.17,112682.73,12.66,5.85,0.62,29.74,59.92
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),8,87.5,"[52.9%, 97.8%]",1178.04,-2032.73,0.5795,776.69,4.06,775.54,110443.19,10.42,3.21,0.49,19.46,57.49
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),16,31.25,"[14.2%, 55.6%]",686.67,-1234.78,0.5561,-634.33,0.25,1481.33,92950.9,-7.07,11.31,-1.61,36.08,58.3
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),3,66.67,"[20.8%, 93.9%]",1334.59,-312.9,4.2652,785.43,8.53,289.27,107119.54,7.1,1.21,0.18,7.66,76.52

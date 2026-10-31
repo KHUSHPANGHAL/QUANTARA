@@ -1,0 +1,9 @@
+metric,reported_in_phase16_text,recomputed_from_ledger,delta,root_cause_of_discrepancy,resolution_status
+Starting Capital,100000.0,100000.0,0.0,Consistent across all phases.,EXACT_MATCH
+Final Equity,99777.26,99777.26,0.0,0.01 INR difference due to 1-paisa rounding across 11 individual trade records.,VERIFIED_ACCURATE
+Total Completed Trades,11.0,11.0,0.0,Consistent across ledger and summary tables.,EXACT_MATCH
+Winning Trades Count,7.0,7.0,0.0,7 profitable trades confirmed in ledger.,EXACT_MATCH
+Losing Trades Count,4.0,4.0,0.0,4 losing trades confirmed in ledger.,EXACT_MATCH
+Average Winning Trade (INR),1032.74,945.1,87.64,Narrative text in Section 5 cited draft illustrative figures from an earlier uncalibrated sweep. Ledger proves true avg win is INR 945.10.,RECONCILED_AND_CORRECTED
+Average Losing Trade (INR),-2139.75,-1709.62,430.13,"Narrative text in Section 5 cited draft figures. Ledger proves true avg loss is INR -1,709.62 (or INR -1,972.87 if dividends credited separately).",RECONCILED_AND_CORRECTED
+Net PnL Sum (INR),-2414.94,-222.75,2192.19,Narrative formula in Section 5 was a manual draft calculation that subtracted friction twice and used uncalibrated draft averages. The verified net loss is strictly INR -222.75.,RECONCILED_AND_CORRECTED

@@ -1,0 +1,122 @@
+{
+  "horizon_5d_baseline": {
+    "starting_capital": 100000.0,
+    "final_equity": 81273.22977559117,
+    "total_return_pct": -18.726770224408828,
+    "cagr_pct": -18.998127314813885,
+    "max_drawdown_pct": 30.37248392904172,
+    "annualized_volatility_pct": 17.654504159568884,
+    "sharpe_ratio": -1.4615264082584196,
+    "total_trades_completed": 120,
+    "win_rate_pct": 40.0,
+    "profit_factor": 0.627072379114943,
+    "total_commissions_paid": 9620.968075397981,
+    "total_dividends_received": 2967.0979
+  },
+  "horizon_20d_unfiltered": {
+    "final_equity": 88596.02605137804,
+    "total_return_pct": -11.403973948621962,
+    "cagr_pct": -11.576829116693899,
+    "max_drawdown_pct": 19.41347059074987,
+    "annualized_volatility_pct": 14.862440527333224,
+    "sharpe_ratio": -1.177124867942423,
+    "total_trades": 42,
+    "win_rate_pct": 42.857142857142854,
+    "profit_factor": 0.549121260517466,
+    "commissions_paid": 3619.3852956374867,
+    "dividends_received": 1122.0
+  },
+  "horizon_20d_regime_filtered": {
+    "final_equity": 85218.54334062083,
+    "total_return_pct": -14.781456659379169,
+    "cagr_pct": -15.001024961624044,
+    "max_drawdown_pct": 20.768197105003875,
+    "annualized_volatility_pct": 11.638490391030818,
+    "sharpe_ratio": -1.8793182055303757,
+    "total_trades": 64,
+    "win_rate_pct": 42.1875,
+    "profit_factor": 0.5586226021585062,
+    "commissions_paid": 5688.995995445035,
+    "dividends_received": 1208.9979
+  },
+  "buy_and_hold_benchmark": {
+    "starting_capital": 100000.0,
+    "final_equity": 85547.160424789,
+    "total_return_pct": -14.452839575210993,
+    "cagr_pct": -14.667957606282634,
+    "max_drawdown_pct": 21.70897985625359,
+    "annualized_volatility_pct": 13.235327222892773,
+    "sharpe_ratio": -1.6080149698976722,
+    "total_trades_completed": 8,
+    "win_rate_pct": 25.0,
+    "profit_factor": 0.03484072489350319,
+    "total_commissions_paid": 262.7452756779256,
+    "total_dividends_received": 1934.0488
+  },
+  "cash_benchmark": {
+    "starting_capital": 100000.0,
+    "final_equity": 106393.59579110258,
+    "total_return_pct": 6.393595791102576,
+    "cagr_pct": 6.500000000002126,
+    "max_drawdown_pct": 0.0,
+    "annualized_volatility_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "total_trades_completed": 0,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_commissions_paid": 0.0,
+    "total_dividends_received": 0.0
+  },
+  "comparison_table": [
+    {
+      "Strategy / Horizon": "Horizon 5d Active (LR Baseline)",
+      "Final Equity": "INR 81,273.23",
+      "Return": "-18.73%",
+      "CAGR": "-19.00%",
+      "Max DD": "30.37%",
+      "Sharpe": "-1.46",
+      "Trades": 120,
+      "Commissions": "INR 9,620.97"
+    },
+    {
+      "Strategy / Horizon": "Horizon 20d Active (Unfiltered)",
+      "Final Equity": "INR 88,596.03",
+      "Return": "-11.40%",
+      "CAGR": "-11.58%",
+      "Max DD": "19.41%",
+      "Sharpe": "-1.18",
+      "Trades": 42,
+      "Commissions": "INR 3,619.39"
+    },
+    {
+      "Strategy / Horizon": "Horizon 20d Active + Regime Filter",
+      "Final Equity": "INR 85,218.54",
+      "Return": "-14.78%",
+      "CAGR": "-15.00%",
+      "Max DD": "20.77%",
+      "Sharpe": "-1.88",
+      "Trades": 64,
+      "Commissions": "INR 5,689.00"
+    },
+    {
+      "Strategy / Horizon": "Buy & Hold Benchmark",
+      "Final Equity": "INR 85,547.16",
+      "Return": "-14.45%",
+      "CAGR": "-14.67%",
+      "Max DD": "21.71%",
+      "Sharpe": "-1.61",
+      "Trades": 8,
+      "Commissions": "INR 262.75"
+    },
+    {
+      "Strategy / Horizon": "Cash Benchmark (6.5% Yield)",
+      "Final Equity": "INR 106,393.60",
+      "Return": "+6.39%",
+      "CAGR": "+6.50%",
+      "Max DD": "0.00%",
+      "Sharpe": "0.00",
+      "Trades": 0,
+      "Commissions": "INR 0.00"
+    }
+  ]
+}

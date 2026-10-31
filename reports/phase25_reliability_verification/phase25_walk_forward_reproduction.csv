@@ -1,0 +1,6 @@
+fold_name,test_window,market_regime,reported_lstm_bal_acc,reported_gru_bal_acc,reported_lr_bal_acc,training_scope,was_model_retrained,is_out_of_sample,sample_nature,audit_verdict
+Fold 1: 2022 Shock,2022-01-01 to 2022-12-31,Inflation & Global Rate Hikes,59.29,60.11,52.11,Train Split (2017 to 2024-09-23),False,False,IN_SAMPLE_TRAIN_DATA,FAIL_METHODOLOGICAL_LEAKAGE (DL models evaluated on data they were trained on)
+Fold 2: 2023 Recovery,2023-01-01 to 2023-12-31,Broad Post-Correction Recovery,54.48,54.22,50.17,Train Split (2017 to 2024-09-23),False,False,IN_SAMPLE_TRAIN_DATA,FAIL_METHODOLOGICAL_LEAKAGE (DL models evaluated on data they were trained on)
+Fold 3: 2024 Bull Run,2024-01-01 to 2024-09-23,Strong Domestic Equity Liquidity,57.11,55.27,50.71,Train Split (2017 to 2024-09-23),False,False,IN_SAMPLE_TRAIN_DATA,FAIL_METHODOLOGICAL_LEAKAGE (DL models evaluated on data they were trained on)
+Fold 4: 2024-2025 Val,2024-10-24 to 2025-09-19,Sideways Consolidation,51.25,53.13,57.53,Train Split (2017 to 2024-09-23),False,True,VALIDATION_SPLIT (Used for early stopping),VALIDATION_SPLIT_USED_AS_PSEUDO_WALK_FORWARD (Hyperparameters tuned on this fold)
+Fold 5: 2025-2026 Test,2025-10-23 to 2026-09-22,Severe Large-Cap Downtrend,48.64,50.27,44.56,Train Split (2017 to 2024-09-23),False,True,REUSED_CONTAMINATED_TEST_SPLIT,REUSED_TEST_DATA (Repeatedly tested since Phase 13)

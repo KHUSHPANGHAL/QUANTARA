@@ -1,0 +1,5 @@
+fold_id,fold_name,train_samples,test_samples,train_p_down,train_p_up,corrected_brier_score,corrected_log_loss,hard_label_brier_score,hard_label_log_loss,log_loss_reduction
+1,Fold 1: 2023 Recovery,8853,1308,0.387439,0.612561,0.2267,0.646,0.3402,12.2626,11.6166
+2,Fold 2: 2024 Bull Run,10268,905,0.390144,0.609856,0.2187,0.6298,0.3028,10.9127,10.2829
+3,Fold 3: 2024-2025 Val,11342,1148,0.375771,0.624229,0.2624,0.7188,0.4878,17.5823,16.8635
+4,Fold 4: 2025-2026 Test,11674,1286,0.376221,0.623779,0.2921,0.7794,0.6081,21.9177,21.1383

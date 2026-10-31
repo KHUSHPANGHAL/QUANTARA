@@ -1,0 +1,5 @@
+window,variant,candidate_signals,executed_trades,rejected_signals,final_equity_inr,net_return_pct,max_drawdown_pct,win_rate_pct,profit_factor
+VALIDATION,Baseline (No SMA Filter),419,26,0,99609.85,-0.39,9.61,50.0,0.8
+VALIDATION,SMA50 Filter (Longs only above SMA50),419,10,341,98277.8,-1.72,7.27,40.0,0.6
+TEST,Baseline (No SMA Filter),717,27,0,82538.93,-17.46,20.66,29.63,0.31
+TEST,SMA50 Filter (Longs only above SMA50),717,14,636,83944.74,-16.06,19.58,21.43,0.11

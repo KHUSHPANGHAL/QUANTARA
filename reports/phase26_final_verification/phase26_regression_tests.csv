@@ -1,0 +1,4 @@
+test_id,description,rule,observed,status
+REG_T1,"Detector for Hard Label [0.0, 1.0] Passed as Probability","Flag and reject any baseline generating degenerate deterministic [0, 1] arrays",Hard probability detector successfully identifies degenerate probabilities,PASSED
+REG_T2,Training Prior Probability Vector Mathematical Validity,"P(DOWN) + P(UP) == 1.0, 0 < P < 1, derived strictly from train labels","P(DOWN)=0.3333, P(UP)=0.6667, Sum=1.0000",PASSED
+REG_T3,Class Ordering Target Encoding Alignment,"Index 0 must correspond strictly to DOWN, Index 1 to UP","Index 0 = DOWN (label 0), Index 1 = UP (label 1) confirmed",PASSED

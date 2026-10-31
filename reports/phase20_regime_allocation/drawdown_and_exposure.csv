@@ -1,0 +1,19 @@
+strategy_id,strategy_name,evaluation_window,max_drawdown_pct,mean_equity_exposure_pct,max_equity_exposure_pct,mean_cash_exposure_pct,min_cash_exposure_pct,time_in_full_cash_pct,annualized_volatility_pct
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),0.0,0.0,0.0,100.0,100.0,100.0,0.0
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),0.0,0.0,0.0,100.0,100.0,100.0,0.0
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),0.0,0.0,0.0,100.0,100.0,100.0,0.02
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),0.0,0.0,0.0,100.0,100.0,100.0,0.02
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),0.0,0.0,0.0,100.0,100.0,100.0,0.03
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),0.0,0.0,0.0,100.0,100.0,100.0,0.03
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),6.41,45.04,97.23,54.96,2.77,35.22,11.14
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),16.82,58.96,99.62,41.04,0.38,29.44,13.99
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),5.85,29.74,98.86,70.26,1.14,59.92,9.84
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),15.05,32.7,99.63,67.3,0.37,56.05,10.05
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),5.85,29.74,98.86,70.26,1.14,59.92,9.84
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),15.27,35.79,99.63,64.21,0.37,48.39,10.23
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),3.21,19.46,93.91,80.54,6.09,57.49,8.02
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),5.74,19.45,99.27,80.55,0.73,57.66,6.54
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),11.31,36.08,99.24,63.92,0.76,58.3,8.44
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),5.53,36.86,97.33,63.14,2.67,59.68,7.88
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),1.21,7.66,62.9,92.34,37.1,76.52,3.01
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),6.6,7.71,98.96,92.29,1.04,79.44,3.62

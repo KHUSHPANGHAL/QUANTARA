@@ -1,0 +1,5 @@
+confidence_band,test_samples,mean_model_p_up_pct,empirical_up_rate_pct,overconfidence_bias_pct,brier_score,executed_trades,executed_win_rate_pct,executed_net_pnl_inr
+< 0.35,1063,30.95,27.38,3.57,0.2016,0,0.0,0.0
+"[0.35, 0.40)",602,37.29,27.74,9.54,0.2092,16,25.0,-12195.68
+"[0.40, 0.45)",149,41.67,30.87,10.79,0.2241,11,45.45,-5265.39
+"[0.45, 0.50)",2,45.29,0.0,45.29,0.2052,0,0.0,0.0

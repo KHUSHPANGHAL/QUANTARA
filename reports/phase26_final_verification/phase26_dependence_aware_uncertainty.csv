@@ -1,0 +1,7 @@
+model_name,comparison_type,reference_model,point_balanced_acc_pct,ci_95_balanced_acc,ci_width_pct,point_macro_f1_pct,ci_95_macro_f1,crosses_50pct_threshold,statistically_superior_to_reference
+Corrected Majority Baseline,Individual Model Uncertainty,N/A,50.0,"[50.00%, 50.00%]",0.0,35.75,"[32.32%, 39.41%]",True,N/A
+Logistic Regression (Retrained),Individual Model Uncertainty,N/A,50.07,"[46.19%, 54.25%]",8.06,49.91,"[45.84%, 54.19%]",True,N/A
+LSTM Classifier (Fresh Walk-Forward),Individual Model Uncertainty,N/A,49.92,"[44.96%, 55.11%]",10.15,46.89,"[40.59%, 53.62%]",True,N/A
+GRU Classifier (Fresh Walk-Forward),Individual Model Uncertainty,N/A,48.68,"[45.73%, 51.44%]",5.71,39.37,"[34.68%, 44.30%]",True,N/A
+LSTM Classifier (Fresh Walk-Forward),Paired Difference vs LR,Logistic Regression (Retrained),-0.15,"[-5.10%, 5.22%]",10.32,-3.02,"[-9.02%, 2.98%]",False,NO (CI includes zero)
+GRU Classifier (Fresh Walk-Forward),Paired Difference vs LR,Logistic Regression (Retrained),-1.39,"[-6.07%, 2.74%]",8.82,-10.54,"[-15.90%, -5.02%]",False,NO (CI includes zero)

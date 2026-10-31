@@ -1,0 +1,17 @@
+fold_id,fold_name,market_regime,model_name,test_samples,balanced_acc_pct,macro_f1_pct,standard_acc_pct,down_precision_pct,down_recall_pct,up_precision_pct,up_recall_pct,brier_score,log_loss,confusion_matrix,model_hash
+1,Fold 1: 2023 Recovery,Broad Post-Correction Recovery,Corrected Majority Baseline,1308,50.0,39.75,65.98,0.0,0.0,65.98,100.0,0.2267,0.646,"[[0, 445], [0, 863]]",N/A
+1,Fold 1: 2023 Recovery,Broad Post-Correction Recovery,Logistic Regression (Retrained),1308,56.28,55.61,58.1,40.69,50.56,70.86,61.99,0.2461,0.6854,"[[225, 220], [328, 535]]",N/A
+1,Fold 1: 2023 Recovery,Broad Post-Correction Recovery,LSTM Classifier (Fresh Walk-Forward),1308,57.08,55.91,57.72,40.97,55.06,71.83,59.1,0.2364,0.6658,"[[245, 200], [353, 510]]",f31de12962b78315
+1,Fold 1: 2023 Recovery,Broad Post-Correction Recovery,GRU Classifier (Fresh Walk-Forward),1308,50.85,50.53,58.41,35.48,27.19,66.49,74.51,0.2352,0.6633,"[[121, 324], [220, 643]]",822aa7a0ad0b3a9d
+2,Fold 2: 2024 Bull Run,Strong Domestic Equity Liquidity,Corrected Majority Baseline,905,50.0,41.08,69.72,0.0,0.0,69.72,100.0,0.2187,0.6298,"[[0, 274], [0, 631]]",N/A
+2,Fold 2: 2024 Bull Run,Strong Domestic Equity Liquidity,Logistic Regression (Retrained),905,55.59,48.62,48.73,33.9,72.99,76.51,38.19,0.2517,0.6965,"[[200, 74], [390, 241]]",N/A
+2,Fold 2: 2024 Bull Run,Strong Domestic Equity Liquidity,LSTM Classifier (Fresh Walk-Forward),905,50.0,41.08,69.72,0.0,0.0,69.72,100.0,0.2389,0.6707,"[[0, 274], [0, 631]]",b288f7e303bdded2
+2,Fold 2: 2024 Bull Run,Strong Domestic Equity Liquidity,GRU Classifier (Fresh Walk-Forward),905,50.0,41.08,69.72,0.0,0.0,69.72,100.0,0.2397,0.6724,"[[0, 274], [0, 631]]",39af76029beb193d
+3,Fold 3: 2024-2025 Val,Sideways Consolidation,Corrected Majority Baseline,1148,50.0,33.87,51.22,0.0,0.0,51.22,100.0,0.2624,0.7188,"[[0, 560], [0, 588]]",N/A
+3,Fold 3: 2024-2025 Val,Sideways Consolidation,Logistic Regression (Retrained),1148,49.73,47.51,50.26,48.31,28.04,51.03,71.43,0.2504,0.694,"[[157, 403], [168, 420]]",N/A
+3,Fold 3: 2024-2025 Val,Sideways Consolidation,LSTM Classifier (Fresh Walk-Forward),1148,50.22,49.08,50.61,49.1,34.11,51.38,66.33,0.2598,0.7135,"[[191, 369], [198, 390]]",112abb571aa63e10
+3,Fold 3: 2024-2025 Val,Sideways Consolidation,GRU Classifier (Fresh Walk-Forward),1148,50.0,33.87,51.22,0.0,0.0,51.22,100.0,0.2528,0.6989,"[[0, 560], [0, 588]]",33e2def2c1eeab5f
+4,Fold 4: 2025-2026 Test,Severe Large-Cap Downtrend,Corrected Majority Baseline,1286,50.0,28.16,39.19,0.0,0.0,39.19,100.0,0.2921,0.7794,"[[0, 782], [0, 504]]",N/A
+4,Fold 4: 2025-2026 Test,Severe Large-Cap Downtrend,Logistic Regression (Retrained),1286,52.63,46.32,47.28,65.66,27.88,40.88,77.38,0.2543,0.7017,"[[218, 564], [114, 390]]",N/A
+4,Fold 4: 2025-2026 Test,Severe Large-Cap Downtrend,LSTM Classifier (Fresh Walk-Forward),1286,50.0,28.16,39.19,0.0,0.0,39.19,100.0,0.2717,0.7373,"[[0, 782], [0, 504]]",bacdf74dda1a82fc
+4,Fold 4: 2025-2026 Test,Severe Large-Cap Downtrend,GRU Classifier (Fresh Walk-Forward),1286,50.0,28.16,39.19,0.0,0.0,39.19,100.0,0.28,0.7549,"[[0, 782], [0, 504]]",7bb1fa7415e46c41

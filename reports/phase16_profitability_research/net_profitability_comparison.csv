@@ -1,0 +1,61 @@
+strategy_id,model_family,strategy_name,window,cost_scenario,entry_threshold,exit_rule,final_equity_inr,net_return_pct,cagr_pct,max_drawdown_pct,annualized_volatility_pct,sharpe_ratio,total_trades,win_rate_pct,avg_win_inr,avg_loss_inr,payoff_ratio,profit_factor,net_expectancy_per_trade_inr,turnover_multiple,total_friction_inr
+BENCH_01_CASH,Benchmark,Cash Benchmark (6.5% Annual Yield),VALIDATION,Base (0.39%),,Benchmark,106340.43,6.34,6.47,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_01_CASH,Benchmark,Cash Benchmark (6.5% Annual Yield),VALIDATION,Conservative (0.50%),,Benchmark,106340.43,6.34,6.47,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_01_CASH,Benchmark,Cash Benchmark (6.5% Annual Yield),TEST,Base (0.39%),,Benchmark,106367.01,6.37,6.47,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_01_CASH,Benchmark,Cash Benchmark (6.5% Annual Yield),TEST,Conservative (0.50%),,Benchmark,106367.01,6.37,6.47,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_02_BUY_HOLD,Benchmark,Buy & Hold Benchmark (Equal Weight 8 Stocks),VALIDATION,Base (0.39%),,Benchmark,101570.45,1.57,1.6,12.59,12.81,-0.32,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_02_BUY_HOLD,Benchmark,Buy & Hold Benchmark (Equal Weight 8 Stocks),VALIDATION,Conservative (0.50%),,Benchmark,101570.45,1.57,1.6,12.59,12.81,-0.32,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_02_BUY_HOLD,Benchmark,Buy & Hold Benchmark (Equal Weight 8 Stocks),TEST,Base (0.39%),,Benchmark,84401.47,-15.6,-15.83,23.92,13.97,-1.63,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_02_BUY_HOLD,Benchmark,Buy & Hold Benchmark (Equal Weight 8 Stocks),TEST,Conservative (0.50%),,Benchmark,84401.47,-15.6,-15.83,23.92,13.97,-1.63,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+BENCH_03_SMA50_TREND,Benchmark,Classical SMA-50 Trend Following,VALIDATION,Base (0.39%),,Benchmark,92805.69,-7.19,-7.33,17.74,13.7,-0.96,35,42.86,1168.6,-1291.99,0.9,0.68,-205.55,10.98,3217.84
+BENCH_03_SMA50_TREND,Benchmark,Classical SMA-50 Trend Following,VALIDATION,Conservative (0.50%),,Benchmark,91013.55,-8.99,-9.16,18.07,13.67,-1.11,35,40.0,1176.18,-1264.14,0.93,0.62,-256.76,10.86,3985.25
+BENCH_03_SMA50_TREND,Benchmark,Classical SMA-50 Trend Following,TEST,Base (0.39%),,Benchmark,77855.86,-22.14,-22.46,25.65,12.82,-2.43,31,35.48,1334.59,-1979.35,0.67,0.37,-714.33,9.44,2740.57
+BENCH_03_SMA50_TREND,Benchmark,Classical SMA-50 Trend Following,TEST,Conservative (0.50%),,Benchmark,76348.31,-23.65,-23.98,26.74,12.85,-2.57,31,32.26,1385.79,-1916.38,0.72,0.34,-762.96,9.33,3392.94
+LR_01_BASE,LogisticRegression,"LR Baseline (Th 0.35, No SMA, 20d Hold)",VALIDATION,Base (0.39%),0.35,Fixed 20d,99609.85,-0.39,-0.4,9.61,13.65,-0.44,26,50.0,997.98,-1241.83,0.8,0.8,-15.01,8.4,2464.69
+LR_01_BASE,LogisticRegression,"LR Baseline (Th 0.35, No SMA, 20d Hold)",VALIDATION,Conservative (0.50%),0.35,Fixed 20d,98426.1,-1.57,-1.61,9.9,13.65,-0.53,26,46.15,1043.96,-1205.36,0.87,0.74,-60.53,8.36,3072.62
+LR_01_BASE,LogisticRegression,"LR Baseline (Th 0.35, No SMA, 20d Hold)",TEST,Base (0.39%),0.35,Fixed 20d,82538.93,-17.46,-17.72,20.66,14.76,-1.69,27,29.63,1017.5,-1394.11,0.73,0.31,-646.71,7.77,2259.7
+LR_01_BASE,LogisticRegression,"LR Baseline (Th 0.35, No SMA, 20d Hold)",TEST,Conservative (0.50%),0.35,Fixed 20d,81320.58,-18.68,-18.95,21.08,14.81,-1.78,27,29.63,971.34,-1438.8,0.68,0.28,-691.83,7.73,2812.72
+LR_02_TH038_SMA,LogisticRegression,LR Comb A (Th 0.38 + SMA50),VALIDATION,Base (0.39%),0.38,Fixed 20d,97654.61,-2.35,-2.39,4.14,3.84,-2.31,5,40.0,939.76,-1853.17,0.51,0.34,-469.08,1.62,471.38
+LR_02_TH038_SMA,LogisticRegression,LR Comb A (Th 0.38 + SMA50),VALIDATION,Conservative (0.50%),0.38,Fixed 20d,97375.18,-2.62,-2.68,4.33,3.84,-2.38,5,40.0,882.63,-1908.23,0.46,0.31,-524.96,1.62,590.4
+LR_02_TH038_SMA,LogisticRegression,LR Comb A (Th 0.38 + SMA50),TEST,Base (0.39%),0.38,Fixed 20d,96335.41,-3.66,-3.72,6.04,5.99,-1.69,8,25.0,1492.15,-1176.15,1.27,0.42,-458.07,2.61,761.24
+LR_02_TH038_SMA,LogisticRegression,LR Comb A (Th 0.38 + SMA50),TEST,Conservative (0.50%),0.38,Fixed 20d,95808.35,-4.19,-4.26,6.21,5.99,-1.78,8,25.0,1436.66,-1245.5,1.15,0.38,-523.96,2.61,952.63
+LR_03_TH038_SMA_STOP7,LogisticRegression,LR Comb C (Th 0.38 + SMA50 + 7% Stop),VALIDATION,Base (0.39%),0.38,SL 7%,99696.17,-0.3,-0.31,2.6,3.73,-1.81,5,40.0,945.19,-1028.12,0.92,0.61,-60.77,1.64,481.09
+LR_03_TH038_SMA_STOP7,LogisticRegression,LR Comb C (Th 0.38 + SMA50 + 7% Stop),VALIDATION,Conservative (0.50%),0.38,SL 7%,99419.97,-0.58,-0.59,2.59,3.72,-1.89,5,40.0,887.33,-1079.0,0.82,0.55,-116.01,1.64,601.07
+LR_03_TH038_SMA_STOP7,LogisticRegression,LR Comb C (Th 0.38 + SMA50 + 7% Stop),TEST,Base (0.39%),0.38,SL 7%,96949.61,-3.05,-3.1,6.6,6.56,-1.44,9,22.22,1582.81,-946.29,1.67,0.48,-338.93,2.93,858.08
+LR_03_TH038_SMA_STOP7,LogisticRegression,LR Comb C (Th 0.38 + SMA50 + 7% Stop),TEST,Conservative (0.50%),0.38,SL 7%,96415.87,-3.58,-3.64,6.71,6.56,-1.52,9,22.22,1524.99,-1006.02,1.52,0.43,-398.24,2.93,1072.98
+LR_04_TH040_HOLD20,LogisticRegression,"LR High Conviction (Th 0.40, 20d Hold)",VALIDATION,Base (0.39%),0.4,Fixed 20d,106574.0,6.57,6.71,7.77,9.4,0.05,9,66.67,2048.08,-1904.83,1.08,2.15,730.44,2.98,884.39
+LR_04_TH040_HOLD20,LogisticRegression,"LR High Conviction (Th 0.40, 20d Hold)",VALIDATION,Conservative (0.50%),0.4,Fixed 20d,106044.84,6.04,6.17,7.87,9.43,-0.01,9,66.67,1988.26,-1961.58,1.01,2.03,671.65,2.97,1105.13
+LR_04_TH040_HOLD20,LogisticRegression,"LR High Conviction (Th 0.40, 20d Hold)",TEST,Base (0.39%),0.4,Fixed 20d,98709.98,-1.29,-1.31,10.7,10.58,-0.69,16,50.0,1230.97,-1523.03,0.81,0.81,-80.63,5.07,1489.28
+LR_04_TH040_HOLD20,LogisticRegression,"LR High Conviction (Th 0.40, 20d Hold)",TEST,Conservative (0.50%),0.4,Fixed 20d,97559.47,-2.44,-2.48,11.01,10.54,-0.8,16,50.0,1145.09,-1580.16,0.72,0.72,-152.53,5.04,1852.58
+LR_05_TH040_STOP7_TP10,LogisticRegression,LR Asymmetric (Th 0.40 + 7% Stop + 10% TP),VALIDATION,Base (0.39%),0.4,SL 7%,107467.79,7.47,7.62,6.15,7.86,0.15,9,66.67,1966.31,-1443.36,1.36,2.72,829.75,2.98,885.64
+LR_05_TH040_STOP7_TP10,LogisticRegression,LR Asymmetric (Th 0.40 + 7% Stop + 10% TP),VALIDATION,Conservative (0.50%),0.4,SL 7%,107008.01,7.01,7.15,6.23,7.87,0.09,9,66.67,1915.54,-1495.08,1.28,2.56,778.67,2.97,1106.83
+LR_05_TH040_STOP7_TP10,LogisticRegression,LR Asymmetric (Th 0.40 + 7% Stop + 10% TP),TEST,Base (0.39%),0.4,SL 7%,91647.67,-8.35,-8.48,14.01,12.18,-1.2,19,42.11,1195.02,-1628.41,0.73,0.53,-439.6,5.74,1675.41
+LR_05_TH040_STOP7_TP10,LogisticRegression,LR Asymmetric (Th 0.40 + 7% Stop + 10% TP),TEST,Conservative (0.50%),0.4,SL 7%,89063.43,-10.94,-11.1,16.03,12.11,-1.45,19,42.11,995.8,-1718.45,0.58,0.42,-575.61,5.66,2066.52
+LR_06_TH042_HOLD20,LogisticRegression,"LR Ultra Selective (Th 0.42, 20d Hold)",VALIDATION,Base (0.39%),0.42,Fixed 20d,105136.47,5.14,5.24,3.76,6.63,-0.18,4,75.0,2514.38,-2406.67,1.04,3.13,1284.12,1.29,386.94
+LR_06_TH042_HOLD20,LogisticRegression,"LR Ultra Selective (Th 0.42, 20d Hold)",VALIDATION,Conservative (0.50%),0.42,Fixed 20d,104906.74,4.91,5.01,3.76,6.64,-0.21,4,75.0,2455.44,-2459.59,1.0,2.99,1226.68,1.29,484.79
+LR_06_TH042_HOLD20,LogisticRegression,"LR Ultra Selective (Th 0.42, 20d Hold)",TEST,Base (0.39%),0.42,Fixed 20d,99777.26,-0.22,-0.23,7.97,9.89,-0.63,11,63.64,945.1,-1972.87,0.48,0.84,-20.25,3.55,1042.73
+LR_06_TH042_HOLD20,LogisticRegression,"LR Ultra Selective (Th 0.42, 20d Hold)",TEST,Conservative (0.50%),0.42,Fixed 20d,99156.57,-0.84,-0.86,8.14,9.88,-0.7,11,63.64,886.95,-2026.26,0.44,0.77,-76.68,3.55,1305.01
+RF_01_BASE,RandomForest,"Random Forest Base (Th 0.35, 20d Hold)",VALIDATION,Base (0.39%),0.35,Fixed 20d,99295.22,-0.7,-0.72,9.96,13.73,-0.46,32,43.75,1359.74,-1175.26,1.16,0.9,-22.02,10.79,3170.48
+RF_01_BASE,RandomForest,"Random Forest Base (Th 0.35, 20d Hold)",VALIDATION,Conservative (0.50%),0.35,Fixed 20d,97067.52,-2.93,-2.99,11.07,13.73,-0.63,32,40.62,1395.9,-1182.33,1.18,0.81,-91.64,10.68,3926.89
+RF_01_BASE,RandomForest,"Random Forest Base (Th 0.35, 20d Hold)",TEST,Base (0.39%),0.35,Fixed 20d,79883.03,-20.12,-20.41,23.72,15.01,-1.88,35,34.29,712.54,-1340.34,0.53,0.28,-574.77,10.16,2956.98
+RF_01_BASE,RandomForest,"Random Forest Base (Th 0.35, 20d Hold)",TEST,Conservative (0.50%),0.35,Fixed 20d,78317.03,-21.68,-21.99,24.72,15.08,-2.0,35,34.29,658.85,-1378.81,0.48,0.25,-619.51,10.06,3667.23
+RF_02_TH038_SMA,RandomForest,Random Forest (Th 0.38 + SMA50),VALIDATION,Base (0.39%),0.38,Fixed 20d,91113.74,-8.89,-9.06,11.25,7.7,-2.04,19,31.58,1226.11,-1301.23,0.94,0.43,-467.7,5.95,1736.67
+RF_02_TH038_SMA,RandomForest,Random Forest (Th 0.38 + SMA50),VALIDATION,Conservative (0.50%),0.38,Fixed 20d,90120.44,-9.88,-10.07,11.96,7.69,-2.19,19,31.58,1160.87,-1347.02,0.86,0.4,-519.98,5.92,2164.38
+RF_02_TH038_SMA,RandomForest,Random Forest (Th 0.38 + SMA50),TEST,Base (0.39%),0.38,Fixed 20d,84613.05,-15.39,-15.61,15.67,7.71,-3.0,15,33.33,728.84,-1951.22,0.37,0.19,-1025.8,4.68,1353.01
+RF_02_TH038_SMA,RandomForest,Random Forest (Th 0.38 + SMA50),TEST,Conservative (0.50%),0.38,Fixed 20d,84049.73,-15.95,-16.19,16.16,7.74,-3.08,15,33.33,676.73,-1981.49,0.34,0.17,-1063.35,4.66,1689.09
+RF_03_TH040_HOLD20,RandomForest,Random Forest High Conviction (Th 0.40),VALIDATION,Base (0.39%),0.4,Fixed 20d,96672.62,-3.33,-3.39,7.75,4.75,-2.07,10,30.0,803.52,-833.85,0.96,0.41,-332.74,3.24,946.73
+RF_03_TH040_HOLD20,RandomForest,Random Forest High Conviction (Th 0.40),VALIDATION,Conservative (0.50%),0.4,Fixed 20d,96031.0,-3.97,-4.05,8.23,4.75,-2.22,10,30.0,726.47,-892.49,0.81,0.35,-396.9,3.23,1182.08
+RF_03_TH040_HOLD20,RandomForest,Random Forest High Conviction (Th 0.40),TEST,Base (0.39%),0.4,Fixed 20d,86290.35,-13.71,-13.91,15.11,8.07,-2.62,9,22.22,234.47,-2097.39,0.11,0.03,-1523.29,2.81,805.72
+RF_03_TH040_HOLD20,RandomForest,Random Forest High Conviction (Th 0.40),TEST,Conservative (0.50%),0.4,Fixed 20d,85917.4,-14.08,-14.29,15.34,8.15,-2.65,9,22.22,184.33,-2133.87,0.09,0.02,-1564.73,2.82,1012.14
+LGB_01_BASE,LightGBM,"LightGBM Base (Th 0.35, 20d Hold)",VALIDATION,Base (0.39%),0.35,Fixed 20d,111038.92,11.04,11.27,7.38,15.11,0.35,35,60.0,1427.75,-1484.2,0.96,1.44,315.4,12.27,3620.76
+LGB_01_BASE,LightGBM,"LightGBM Base (Th 0.35, 20d Hold)",VALIDATION,Conservative (0.50%),0.35,Fixed 20d,109100.65,9.1,9.29,7.79,15.11,0.23,35,60.0,1358.51,-1514.85,0.9,1.35,260.02,12.17,4496.39
+LGB_01_BASE,LightGBM,"LightGBM Base (Th 0.35, 20d Hold)",TEST,Base (0.39%),0.35,Fixed 20d,81428.08,-18.57,-18.84,23.67,15.84,-1.65,34,32.35,1193.1,-1420.0,0.84,0.4,-546.23,10.27,2991.96
+LGB_01_BASE,LightGBM,"LightGBM Base (Th 0.35, 20d Hold)",TEST,Conservative (0.50%),0.35,Fixed 20d,79784.46,-20.22,-20.51,24.88,15.98,-1.76,34,32.35,1133.88,-1462.86,0.78,0.37,-594.57,10.15,3702.19
+LGB_02_TH038_HOLD20,LightGBM,"LightGBM Stronger (Th 0.38, 20d Hold)",VALIDATION,Base (0.39%),0.38,Fixed 20d,96752.03,-3.25,-3.31,10.37,13.75,-0.65,31,41.94,1463.19,-1286.22,1.14,0.82,-104.77,10.31,3026.19
+LGB_02_TH038_HOLD20,LightGBM,"LightGBM Stronger (Th 0.38, 20d Hold)",VALIDATION,Conservative (0.50%),0.38,Fixed 20d,94381.06,-5.62,-5.73,11.11,13.8,-0.83,31,41.94,1368.71,-1348.62,1.01,0.73,-181.26,10.2,3746.48
+LGB_02_TH038_HOLD20,LightGBM,"LightGBM Stronger (Th 0.38, 20d Hold)",TEST,Base (0.39%),0.38,Fixed 20d,90620.81,-9.38,-9.52,15.76,13.24,-1.18,31,41.94,1081.16,-1345.32,0.8,0.58,-302.55,9.86,2886.83
+LGB_02_TH038_HOLD20,LightGBM,"LightGBM Stronger (Th 0.38, 20d Hold)",TEST,Conservative (0.50%),0.38,Fixed 20d,88849.39,-11.15,-11.32,16.28,13.26,-1.33,31,38.71,1101.73,-1324.52,0.83,0.53,-359.7,9.75,3572.59
+LGB_03_TH038_SMA,LightGBM,LightGBM (Th 0.38 + SMA50),VALIDATION,Base (0.39%),0.38,Fixed 20d,92243.64,-7.76,-7.91,13.09,9.66,-1.48,23,39.13,1238.83,-1350.42,0.92,0.59,-337.23,7.32,2142.58
+LGB_03_TH038_SMA,LightGBM,LightGBM (Th 0.38 + SMA50),VALIDATION,Conservative (0.50%),0.38,Fixed 20d,91092.16,-8.91,-9.08,13.98,9.7,-1.6,23,34.78,1341.05,-1309.08,1.02,0.55,-387.3,7.3,2674.23
+LGB_03_TH038_SMA,LightGBM,LightGBM (Th 0.38 + SMA50),TEST,Base (0.39%),0.38,Fixed 20d,92202.71,-7.8,-7.92,12.71,9.01,-1.59,20,40.0,1270.11,-1613.6,0.79,0.52,-389.86,6.6,1928.29
+LGB_03_TH038_SMA,LightGBM,LightGBM (Th 0.38 + SMA50),TEST,Conservative (0.50%),0.38,Fixed 20d,91188.64,-8.81,-8.95,13.43,9.04,-1.71,20,40.0,1211.8,-1657.9,0.73,0.49,-440.57,6.57,2401.93

@@ -1,0 +1,21 @@
+column,description,source_basis,allowed_model_input
+daily_return_1d,Adjusted close percentage change from previous observed session.,Derived from supplied CSV only,True
+return_5d,Adjusted close percentage change from five observed sessions earlier.,Derived from supplied CSV only,True
+return_20d,Adjusted close percentage change from twenty observed sessions earlier.,Derived from supplied CSV only,True
+adj_close_vs_sma20,Adjusted close divided by its 20-session simple moving average minus one.,Derived from supplied CSV only,True
+adj_close_vs_sma50,Adjusted close divided by its 50-session simple moving average minus one.,Derived from supplied CSV only,True
+adj_close_vs_ema12,Adjusted close divided by its 12-span exponential moving average minus one.,Derived from supplied CSV only,True
+adj_close_vs_ema20,Adjusted close divided by its 20-span exponential moving average minus one.,Derived from supplied CSV only,True
+adj_close_vs_ema26,Adjusted close divided by its 26-span exponential moving average minus one.,Derived from supplied CSV only,True
+rsi_14,14-period RSI calculated from adjusted-close changes.,Derived from supplied CSV only,True
+macd_pct,(EMA12 - EMA26) divided by adjusted close.,Derived from supplied CSV only,True
+macd_signal_pct,MACD signal line divided by adjusted close.,Derived from supplied CSV only,True
+macd_histogram_pct,"MACD minus signal line, divided by adjusted close.",Derived from supplied CSV only,True
+bollinger_percent_b,Position of adjusted close between the 20-period Bollinger lower and upper bands.,Derived from supplied CSV only,True
+bollinger_width_pct,Bollinger band width divided by the 20-period SMA.,Derived from supplied CSV only,True
+volatility_20d_annualized,Rolling 20-session standard deviation of adjusted-close daily returns times sqrt(252).,Derived from supplied CSV only,True
+log_volume_change,First difference of log(1 + volume).,Derived from supplied CSV only,True
+volume_vs_sma20,Volume divided by its 20-session moving average minus one.,Derived from supplied CSV only,True
+intraday_range_pct,(High - Low) / raw Close for the same row.,Derived from supplied CSV only,True
+open_gap_pct,Open divided by prior observed raw Close minus one.,Derived from supplied CSV only,True
+close_location_in_range,(Close - Low) / (High - Low); 0.5 if High equals Low.,Derived from supplied CSV only,True

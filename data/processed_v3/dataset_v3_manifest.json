@@ -1,0 +1,64 @@
+{
+  "version": "v3_multi_horizon_regime",
+  "source_sha256": "a30f9ad861cba8e44b1e1aa317d6e0216a0a519963b5c9d254482e043d52ff91",
+  "feature_count": 27,
+  "features": [
+    "daily_return_1d",
+    "return_5d",
+    "return_10d",
+    "return_20d",
+    "adj_close_vs_sma20",
+    "adj_close_vs_sma50",
+    "adj_close_vs_ema12",
+    "adj_close_vs_ema20",
+    "adj_close_vs_ema26",
+    "rsi_14",
+    "macd_pct",
+    "macd_signal_pct",
+    "macd_histogram_pct",
+    "bollinger_percent_b",
+    "bollinger_width_pct",
+    "volatility_10d_annualized",
+    "volatility_20d_annualized",
+    "rolling_drawdown_20d",
+    "intraday_range_pct",
+    "open_gap_pct",
+    "close_location_in_range",
+    "log_volume_change",
+    "volume_vs_sma20",
+    "volume_price_trend_5d",
+    "market_avg_return_1d",
+    "market_breadth_above_sma20",
+    "market_avg_volatility_20d"
+  ],
+  "horizons": [
+    1,
+    5,
+    20
+  ],
+  "thresholds": {
+    "1": 0.005,
+    "5": 0.01,
+    "20": 0.02
+  },
+  "pipeline_summary": {
+    "horizon_1d": {
+      "train": 15408,
+      "validation": 1960,
+      "test": 1968,
+      "purged": 32
+    },
+    "horizon_5d": {
+      "train": 15376,
+      "validation": 1928,
+      "test": 1936,
+      "purged": 96
+    },
+    "horizon_20d": {
+      "train": 15256,
+      "validation": 1808,
+      "test": 1816,
+      "purged": 336
+    }
+  }
+}

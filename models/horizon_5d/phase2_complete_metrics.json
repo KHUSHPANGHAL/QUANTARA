@@ -1,0 +1,560 @@
+{
+  "benchmark_comparison": [
+    {
+      "Model": "Dummy Baseline",
+      "Val Bal Acc": "33.33%",
+      "Test Accuracy": "31.48%",
+      "Test Bal Acc": "33.33%",
+      "Test Macro F1": "0.1596",
+      "DOWN Precision": "0.0%",
+      "HOLD Precision": "0.0%",
+      "UP Precision": "31.5%"
+    },
+    {
+      "Model": "Logistic Regression",
+      "Val Bal Acc": "34.69%",
+      "Test Accuracy": "37.65%",
+      "Test Bal Acc": "40.73%",
+      "Test Macro F1": "0.3557",
+      "DOWN Precision": "55.1%",
+      "HOLD Precision": "35.6%",
+      "UP Precision": "36.3%"
+    },
+    {
+      "Model": "Random Forest",
+      "Val Bal Acc": "34.18%",
+      "Test Accuracy": "37.09%",
+      "Test Bal Acc": "38.56%",
+      "Test Macro F1": "0.3687",
+      "DOWN Precision": "53.6%",
+      "HOLD Precision": "33.7%",
+      "UP Precision": "32.0%"
+    },
+    {
+      "Model": "LightGBM",
+      "Val Bal Acc": "34.71%",
+      "Test Accuracy": "33.80%",
+      "Test Bal Acc": "34.97%",
+      "Test Macro F1": "0.3374",
+      "DOWN Precision": "45.8%",
+      "HOLD Precision": "31.7%",
+      "UP Precision": "29.4%"
+    }
+  ],
+  "lightgbm": {
+    "best_hyperparameters": {
+      "num_leaves": 63,
+      "max_depth": 7,
+      "learning_rate": 0.02,
+      "colsample_bytree": 0.8,
+      "subsample": 0.9,
+      "min_child_samples": 50,
+      "reg_alpha": 0.1,
+      "reg_lambda": 1.0,
+      "class_weight": "balanced"
+    },
+    "best_iteration": 14,
+    "validation_metrics": {
+      "accuracy": 0.34297520661157027,
+      "balanced_accuracy": 0.34708766149003284,
+      "macro_f1": 0.32717387927502994,
+      "weighted_f1": 0.32541677074952907,
+      "log_loss": 1.0977871620127249,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.3310810810810811,
+          "recall": 0.1478129713423831,
+          "f1": 0.20437956204379562,
+          "support": 663
+        },
+        "HOLD": {
+          "precision": 0.3280363223609535,
+          "recall": 0.48247078464106846,
+          "f1": 0.39054054054054055,
+          "support": 599
+        },
+        "UP": {
+          "precision": 0.36495388669301715,
+          "recall": 0.41097922848664686,
+          "f1": 0.3866015352407537,
+          "support": 674
+        }
+      },
+      "confusion_matrix": [
+        [
+          98,
+          306,
+          259
+        ],
+        [
+          87,
+          289,
+          223
+        ],
+        [
+          111,
+          286,
+          277
+        ]
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.33796296296296297,
+      "balanced_accuracy": 0.349733101163524,
+      "macro_f1": 0.33744669579289877,
+      "weighted_f1": 0.33488194896536755,
+      "log_loss": 1.0965821716065218,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.4578313253012048,
+          "recall": 0.2442159383033419,
+          "f1": 0.31852472757753564,
+          "support": 778
+        },
+        "HOLD": {
+          "precision": 0.3169469598965071,
+          "recall": 0.44223826714801445,
+          "f1": 0.36925395629238883,
+          "support": 554
+        },
+        "UP": {
+          "precision": 0.29365079365079366,
+          "recall": 0.3627450980392157,
+          "f1": 0.32456140350877194,
+          "support": 612
+        }
+      },
+      "confusion_matrix": [
+        [
+          190,
+          279,
+          309
+        ],
+        [
+          84,
+          245,
+          225
+        ],
+        [
+          141,
+          249,
+          222
+        ]
+      ]
+    },
+    "financial_simulation": {
+      "round_trip_cost_assumption": 0.0015,
+      "benchmark": {
+        "mean_gross_return": -0.0029191506241310647,
+        "mean_net_return": -0.004419150624131065
+      },
+      "long_strategy_up_signals": {
+        "signal_count": 756,
+        "mean_gross_return": -0.0037717814196083855,
+        "mean_net_return": -0.005271781419608386,
+        "profitable_trades_pct": 0.4312169312169312,
+        "target_hit_pct": 0.29365079365079366,
+        "gross_alpha_vs_benchmark": -0.0008526307954773208,
+        "net_alpha_vs_benchmark": -0.0008526307954773212
+      },
+      "short_strategy_down_signals": {
+        "signal_count": 415,
+        "mean_underlying_return": -0.003994134806895639,
+        "mean_short_net_return": 0.0024941348068956387,
+        "downward_move_pct": 0.5710843373493976,
+        "target_hit_pct": 0.4578313253012048
+      },
+      "hold_signals": {
+        "signal_count": 773,
+        "mean_gross_return": -0.001508145039101112
+      }
+    }
+  },
+  "logistic_regression": {
+    "validation_metrics": {
+      "accuracy": 0.3367768595041322,
+      "balanced_accuracy": 0.34691486311294856,
+      "macro_f1": 0.2927090511248927,
+      "weighted_f1": 0.2885370292773533,
+      "log_loss": 1.0998761109888453,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.3247863247863248,
+          "recall": 0.05731523378582202,
+          "f1": 0.09743589743589744,
+          "support": 663
+        },
+        "HOLD": {
+          "precision": 0.3199343724364233,
+          "recall": 0.6510851419031719,
+          "f1": 0.429042904290429,
+          "support": 599
+        },
+        "UP": {
+          "precision": 0.37333333333333335,
+          "recall": 0.3323442136498516,
+          "f1": 0.3516483516483517,
+          "support": 674
+        }
+      },
+      "confusion_matrix": [
+        [
+          38,
+          414,
+          211
+        ],
+        [
+          44,
+          390,
+          165
+        ],
+        [
+          35,
+          415,
+          224
+        ]
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.3765432098765432,
+      "balanced_accuracy": 0.4072639187901435,
+      "macro_f1": 0.3556941461116582,
+      "weighted_f1": 0.33973466323999374,
+      "log_loss": 1.0936886960954615,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.5511363636363636,
+          "recall": 0.12467866323907455,
+          "f1": 0.20335429769392033,
+          "support": 778
+        },
+        "HOLD": {
+          "precision": 0.3561924257932446,
+          "recall": 0.628158844765343,
+          "f1": 0.45460483344219466,
+          "support": 554
+        },
+        "UP": {
+          "precision": 0.36283185840707965,
+          "recall": 0.46895424836601307,
+          "f1": 0.4091233071988596,
+          "support": 612
+        }
+      },
+      "confusion_matrix": [
+        [
+          97,
+          356,
+          325
+        ],
+        [
+          27,
+          348,
+          179
+        ],
+        [
+          52,
+          273,
+          287
+        ]
+      ]
+    },
+    "financial_simulation": {
+      "round_trip_cost_assumption": 0.0015,
+      "benchmark": {
+        "mean_gross_return": -0.0029191506241310647,
+        "mean_net_return": -0.004419150624131065
+      },
+      "long_strategy_up_signals": {
+        "signal_count": 791,
+        "mean_gross_return": -0.00046298271228190747,
+        "mean_net_return": -0.0019629827122819073,
+        "profitable_trades_pct": 0.47914032869785084,
+        "target_hit_pct": 0.36283185840707965,
+        "gross_alpha_vs_benchmark": 0.0024561679118491574,
+        "net_alpha_vs_benchmark": 0.0024561679118491574
+      },
+      "short_strategy_down_signals": {
+        "signal_count": 176,
+        "mean_underlying_return": -0.009401834755386931,
+        "mean_short_net_return": 0.007901834755386932,
+        "downward_move_pct": 0.6420454545454546,
+        "target_hit_pct": 0.5511363636363636
+      },
+      "hold_signals": {
+        "signal_count": 977,
+        "mean_gross_return": -0.003739904371492016
+      }
+    }
+  },
+  "random_forest": {
+    "validation_metrics": {
+      "accuracy": 0.33419421487603307,
+      "balanced_accuracy": 0.3417770693242322,
+      "macro_f1": 0.312217086335351,
+      "weighted_f1": 0.308899588822686,
+      "log_loss": 1.1041012666117005,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.3143939393939394,
+          "recall": 0.12518853695324283,
+          "f1": 0.1790722761596548,
+          "support": 663
+        },
+        "HOLD": {
+          "precision": 0.3294685990338164,
+          "recall": 0.5692821368948247,
+          "f1": 0.4173806609547124,
+          "support": 599
+        },
+        "UP": {
+          "precision": 0.3500784929356358,
+          "recall": 0.33086053412462907,
+          "f1": 0.34019832189168575,
+          "support": 674
+        }
+      },
+      "confusion_matrix": [
+        [
+          83,
+          350,
+          230
+        ],
+        [
+          74,
+          341,
+          184
+        ],
+        [
+          107,
+          344,
+          223
+        ]
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.37088477366255146,
+      "balanced_accuracy": 0.3856380505669921,
+      "macro_f1": 0.3686866623633758,
+      "weighted_f1": 0.36620936534784154,
+      "log_loss": 1.0908314191968795,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.5362694300518135,
+          "recall": 0.2660668380462725,
+          "f1": 0.3556701030927835,
+          "support": 778
+        },
+        "HOLD": {
+          "precision": 0.33710407239819007,
+          "recall": 0.5379061371841155,
+          "f1": 0.4144645340751043,
+          "support": 554
+        },
+        "UP": {
+          "precision": 0.32047477744807124,
+          "recall": 0.35294117647058826,
+          "f1": 0.3359253499222395,
+          "support": 612
+        }
+      },
+      "confusion_matrix": [
+        [
+          207,
+          308,
+          263
+        ],
+        [
+          61,
+          298,
+          195
+        ],
+        [
+          118,
+          278,
+          216
+        ]
+      ]
+    }
+  },
+  "dummy_baseline": {
+    "validation_metrics": {
+      "accuracy": 0.3481404958677686,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.17215836526181352,
+      "weighted_f1": 0.17980589595009655,
+      "log_loss": 23.49539802534392,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 663
+        },
+        "HOLD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 599
+        },
+        "UP": {
+          "precision": 0.3481404958677686,
+          "recall": 1.0,
+          "f1": 0.5164750957854406,
+          "support": 674
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          663
+        ],
+        [
+          0,
+          0,
+          599
+        ],
+        [
+          0,
+          0,
+          674
+        ]
+      ]
+    },
+    "test_metrics": {
+      "accuracy": 0.3148148148148148,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.1596244131455399,
+      "weighted_f1": 0.1507563901930099,
+      "log_loss": 24.69657732217286,
+      "per_class": {
+        "DOWN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 778
+        },
+        "HOLD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 554
+        },
+        "UP": {
+          "precision": 0.3148148148148148,
+          "recall": 1.0,
+          "f1": 0.4788732394366197,
+          "support": 612
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          778
+        ],
+        [
+          0,
+          0,
+          554
+        ],
+        [
+          0,
+          0,
+          612
+        ]
+      ]
+    }
+  },
+  "per_symbol_analysis": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "test_samples": 243,
+      "accuracy": 0.3045267489711934,
+      "balanced_accuracy": 0.3252403308741337,
+      "macro_f1": 0.3003063387799077,
+      "benchmark_5d_return": -0.0011494073417353911,
+      "up_signals_count": 90,
+      "up_mean_5d_return": -0.00016376883560444407,
+      "alpha_vs_benchmark": 0.000985638506130947
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "test_samples": 243,
+      "accuracy": 0.3004115226337449,
+      "balanced_accuracy": 0.3293458159963014,
+      "macro_f1": 0.2989254244573394,
+      "benchmark_5d_return": -0.006427583701048147,
+      "up_signals_count": 124,
+      "up_mean_5d_return": -0.005738502779708387,
+      "alpha_vs_benchmark": 0.0006890809213397605
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "test_samples": 243,
+      "accuracy": 0.3333333333333333,
+      "balanced_accuracy": 0.3408470976638383,
+      "macro_f1": 0.31330058236291364,
+      "benchmark_5d_return": 0.0008891239939230447,
+      "up_signals_count": 74,
+      "up_mean_5d_return": -0.0006613658135283788,
+      "alpha_vs_benchmark": -0.0015504898074514234
+    },
+    {
+      "symbol": "INFY.NS",
+      "test_samples": 243,
+      "accuracy": 0.35802469135802467,
+      "balanced_accuracy": 0.3319309044332171,
+      "macro_f1": 0.3318052015866498,
+      "benchmark_5d_return": -0.004011261955975308,
+      "up_signals_count": 94,
+      "up_mean_5d_return": -0.0013965854627553185,
+      "alpha_vs_benchmark": 0.0026146764932199894
+    },
+    {
+      "symbol": "ITC.NS",
+      "test_samples": 243,
+      "accuracy": 0.34156378600823045,
+      "balanced_accuracy": 0.3590753293818428,
+      "macro_f1": 0.3387155628534939,
+      "benchmark_5d_return": -0.008300675143527983,
+      "up_signals_count": 110,
+      "up_mean_5d_return": -0.013253033901864546,
+      "alpha_vs_benchmark": -0.004952358758336562
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "test_samples": 243,
+      "accuracy": 0.3045267489711934,
+      "balanced_accuracy": 0.3182059812494595,
+      "macro_f1": 0.2828064714356231,
+      "benchmark_5d_return": -0.0037636036943579842,
+      "up_signals_count": 89,
+      "up_mean_5d_return": -0.007804448940598875,
+      "alpha_vs_benchmark": -0.004040845246240891
+    },
+    {
+      "symbol": "SBIN.NS",
+      "test_samples": 243,
+      "accuracy": 0.345679012345679,
+      "balanced_accuracy": 0.3600188042696753,
+      "macro_f1": 0.3402400100112051,
+      "benchmark_5d_return": 0.0018656137714065844,
+      "up_signals_count": 83,
+      "up_mean_5d_return": -0.0010724490065156633,
+      "alpha_vs_benchmark": -0.0029380627779222474
+    },
+    {
+      "symbol": "TCS.NS",
+      "test_samples": 243,
+      "accuracy": 0.4156378600823045,
+      "balanced_accuracy": 0.4053032839952671,
+      "macro_f1": 0.40329630818238,
+      "benchmark_5d_return": -0.0024554109217333336,
+      "up_signals_count": 92,
+      "up_mean_5d_return": 0.0032229330741695658,
+      "alpha_vs_benchmark": 0.005678343995902899
+    }
+  ]
+}

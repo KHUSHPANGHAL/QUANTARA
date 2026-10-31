@@ -1,0 +1,70 @@
+QUANTARA AI DATA AUDIT AND PREPARATION REPORT
+================================================
+Source: user-supplied AI-Stock-Market-Project-main(2).zip
+Source raw CSV: data/raw/multi_stock_historical.csv
+SHA-256 of source CSV: a30f9ad861cba8e44b1e1aa317d6e0216a0a519963b5c9d254482e043d52ff91
+No synthetic/random market rows were generated.
+No external market-data download or independent exchange reconciliation was performed.
+
+SOURCE DATA CHECKS
+Rows: 19776
+Symbols: 8 (BHARTIARTL.NS, HDFCBANK.NS, ICICIBANK.NS, INFY.NS, ITC.NS, RELIANCE.NS, SBIN.NS, TCS.NS)
+Dates per symbol: 2472 to 2472
+Date range: 2016-10-24 through 2026-10-23
+Duplicate Symbol-Date rows: 0
+Missing values in required source columns: 0
+Non-positive price records: 0
+Negative-volume records: 0
+OHLC inconsistency rows: 0
+Every stock has monotonic dates: True
+
+FEATURE DESIGN
+Model input features: 20
+- daily_return_1d
+- return_5d
+- return_20d
+- adj_close_vs_sma20
+- adj_close_vs_sma50
+- adj_close_vs_ema12
+- adj_close_vs_ema20
+- adj_close_vs_ema26
+- rsi_14
+- macd_pct
+- macd_signal_pct
+- macd_histogram_pct
+- bollinger_percent_b
+- bollinger_width_pct
+- volatility_20d_annualized
+- log_volume_change
+- volume_vs_sma20
+- intraday_range_pct
+- open_gap_pct
+- close_location_in_range
+Features are derived only from data available on the row date; indicators are calculated independently by symbol.
+Technical price/return indicators use the supplied Adj Close series; intraday range/location use supplied raw OHLC fields.
+Raw price levels, Date, Symbol, Company, and all target/future-return columns are not in X_*.csv files.
+
+SPLIT POLICY
+Chronological global date split shared by all symbols.
+Training cutoff: 2024-10-23 (inclusive)
+Validation cutoff: 2025-10-21 (inclusive)
+Latest source date: 2026-10-23
+Rows whose forward target endpoint crosses a split boundary are purged. Final horizon rows without a future observation are excluded.
+
+HORIZONS AND CLASS LABEL POLICY
+Forward return formula: AdjClose[t+h] / AdjClose[t] - 1, where h is the number of subsequent rows for the same symbol.
+1-day UP/DOWN/HOLD thresholds: UP if return > +0.50%; DOWN if return < -0.50%; otherwise HOLD.
+5-day UP/DOWN/HOLD thresholds: UP if return > +1.00%; DOWN if return < -1.00%; otherwise HOLD.
+20-day UP/DOWN/HOLD thresholds: UP if return > +2.00%; DOWN if return < -2.00%; otherwise HOLD.
+Thresholds are explicit initial modelling assumptions, not externally authenticated financial standards. Tune using training/validation only.
+
+SPLIT ROW COUNTS
+1-day: train=15416, validation=1968, test=1976
+5-day: train=15384, validation=1936, test=1944
+20-day: train=15264, validation=1816, test=1824
+
+LIMITATIONS / HONEST STATUS
+1. Historical values are exactly from the supplied repository; no new market observations were invented.
+2. The historical source and corporate-action adjustment policy have not been independently checked against NSE/BSE or a second provider.
+3. The data is structurally prepared for modelling, but predictive quality is unknown until baselines and models are evaluated.
+4. No ML/DL model was trained in this package.

@@ -1,0 +1,261 @@
+strategy_id,strategy_name,evaluation_window,metric_name,reported_phase20_value,reproduced_phase21_value,absolute_difference,reproduction_status
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),final_equity_inr,84401.47,84401.47,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),net_return_pct,-15.6,-15.6,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),max_drawdown_pct,23.92,23.92,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),mean_equity_exposure_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),REUSED TEST (2025-2026),time_in_full_cash_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),final_equity_inr,106393.6,106393.6,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),net_return_pct,6.37,6.37,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),REUSED TEST (2025-2026),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),final_equity_inr,105115.38,105115.38,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),net_return_pct,5.09,5.09,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),REUSED TEST (2025-2026),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),final_equity_inr,100000.0,100000.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),net_return_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),REUSED TEST (2025-2026),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),executed_trades,22.0,22.0,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),trade_win_rate_pct,36.36,36.36,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),avg_win_inr,1157.02,1248.65,91.63,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),avg_loss_inr,-1533.07,-1513.24,19.83,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),realized_payoff_ratio,0.7547,0.8252,0.0705,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),net_expectancy_inr,-554.86,-508.92,45.94,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),profit_factor,0.43,0.47,0.04,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),total_commissions_inr,1968.94,1978.45,9.51,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),final_equity_inr,87793.09,88803.86,1010.77,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),net_return_pct,-12.21,-11.2,1.01,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),max_drawdown_pct,16.82,16.82,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),mean_equity_exposure_pct,58.84,58.96,0.12,DISCREPANCY
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",REUSED TEST (2025-2026),time_in_full_cash_pct,29.44,29.44,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),executed_trades,14.0,14.0,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),trade_win_rate_pct,7.14,7.14,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_win_inr,1466.15,2345.84,879.69,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_loss_inr,-1409.55,-1367.79,41.76,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),realized_payoff_ratio,1.0402,1.7151,0.6749,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),net_expectancy_inr,-1204.15,-1102.53,101.62,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),profit_factor,0.08,0.13,0.05,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),total_commissions_inr,1239.96,1261.44,21.48,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),final_equity_inr,86292.73,87756.26,1463.53,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),net_return_pct,-13.72,-12.26,1.46,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),max_drawdown_pct,16.59,15.05,1.54,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),mean_equity_exposure_pct,33.18,32.7,0.48,DISCREPANCY
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",REUSED TEST (2025-2026),time_in_full_cash_pct,56.05,56.05,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),executed_trades,15.0,15.0,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),trade_win_rate_pct,13.33,13.33,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),avg_win_inr,889.53,1329.37,439.84,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),avg_loss_inr,-1409.55,-1367.79,41.76,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),realized_payoff_ratio,0.6311,0.9719,0.3408,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),net_expectancy_inr,-1103.01,-1008.16,94.85,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),profit_factor,0.1,0.15,0.05,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),total_commissions_inr,1338.12,1359.6,21.48,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),final_equity_inr,86472.06,87935.58,1463.52,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),net_return_pct,-13.55,-12.08,1.47,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),max_drawdown_pct,17.02,15.27,1.75,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),mean_equity_exposure_pct,36.32,35.79,0.53,DISCREPANCY
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),REUSED TEST (2025-2026),time_in_full_cash_pct,48.39,48.39,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),executed_trades,8.0,8.0,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),trade_win_rate_pct,12.5,12.5,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_win_inr,150.76,150.76,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_loss_inr,-794.47,-794.47,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),realized_payoff_ratio,0.1898,0.1898,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),net_expectancy_inr,-676.32,-676.32,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),profit_factor,0.03,0.03,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),total_commissions_inr,762.9,762.9,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),final_equity_inr,98627.4,98627.4,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),net_return_pct,-1.39,-1.39,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),max_drawdown_pct,5.74,5.74,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),mean_equity_exposure_pct,19.45,19.45,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",REUSED TEST (2025-2026),time_in_full_cash_pct,57.66,57.66,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),executed_trades,16.0,16.0,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),trade_win_rate_pct,50.0,50.0,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_win_inr,1083.62,1083.62,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_loss_inr,-1331.12,-1331.12,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),realized_payoff_ratio,0.8141,0.8141,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),net_expectancy_inr,-123.75,-123.75,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),profit_factor,0.81,0.81,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),total_commissions_inr,1527.58,1527.58,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),final_equity_inr,101212.27,101212.27,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),net_return_pct,1.19,1.19,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),max_drawdown_pct,5.53,5.53,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),mean_equity_exposure_pct,36.86,36.86,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",REUSED TEST (2025-2026),time_in_full_cash_pct,59.68,59.68,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),executed_trades,6.0,6.0,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),trade_win_rate_pct,16.67,16.67,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_win_inr,1288.14,1288.14,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),avg_loss_inr,-1744.74,-1744.74,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),realized_payoff_ratio,0.7383,0.7383,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),net_expectancy_inr,-1239.26,-1239.26,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),profit_factor,0.15,0.15,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),total_commissions_inr,567.34,567.34,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),final_equity_inr,97163.38,97163.38,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),net_return_pct,-2.86,-2.86,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),max_drawdown_pct,6.6,6.6,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),mean_equity_exposure_pct,7.71,7.71,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",REUSED TEST (2025-2026),time_in_full_cash_pct,79.44,79.44,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),final_equity_inr,101570.45,101570.45,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),net_return_pct,1.57,1.57,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),max_drawdown_pct,12.59,12.59,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),mean_equity_exposure_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_BUY_AND_HOLD,0. Buy & Hold Benchmark (Equal Weight 8 Large-Caps),VALIDATION (2024-2025),time_in_full_cash_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),final_equity_inr,106367.01,106367.01,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),net_return_pct,6.34,6.34,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_GROSS,3. Gross Cash Benchmark (6.5% Gross Repo Yield),VALIDATION (2024-2025),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),final_equity_inr,105094.24,105094.24,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),net_return_pct,5.07,5.07,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_NET,2. Net Cash Equivalent (5.2% Net Yield after Tax/Fees),VALIDATION (2024-2025),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),executed_trades,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),trade_win_rate_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),avg_win_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),avg_loss_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),realized_payoff_ratio,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),net_expectancy_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),profit_factor,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),total_commissions_inr,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),final_equity_inr,100000.0,100000.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),net_return_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),max_drawdown_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),mean_equity_exposure_pct,0.0,0.0,0.0,REPRODUCED_EXACT
+BENCH_CASH_ZERO,1. Cash Benchmark (0.0% Yield - Idle Trading Cash),VALIDATION (2024-2025),time_in_full_cash_pct,100.0,100.0,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),executed_trades,18.0,18.0,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),trade_win_rate_pct,77.78,77.78,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),avg_win_inr,1182.1,1182.1,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),avg_loss_inr,-884.57,-884.57,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),realized_payoff_ratio,1.3364,1.3364,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),net_expectancy_inr,722.84,722.84,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),profit_factor,4.68,4.68,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),total_commissions_inr,1740.04,1740.04,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),final_equity_inr,113011.13,113011.13,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),net_return_pct,13.01,13.01,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),max_drawdown_pct,6.41,6.41,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),mean_equity_exposure_pct,45.04,45.04,0.0,REPRODUCED_EXACT
+STRAT_A_NO_FILTER,"4. Rule A: Baseline LR (No Regime Filter, Pure Cash 0%)",VALIDATION (2024-2025),time_in_full_cash_pct,35.22,35.22,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),executed_trades,12.0,12.0,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),trade_win_rate_pct,75.0,75.0,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),avg_win_inr,1542.47,1542.47,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),avg_loss_inr,-1657.84,-1657.84,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),realized_payoff_ratio,0.9304,0.9304,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),net_expectancy_inr,742.39,742.39,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),profit_factor,2.79,2.79,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),total_commissions_inr,1167.17,1167.17,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),final_equity_inr,112682.73,112682.73,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),net_return_pct,12.66,12.66,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),max_drawdown_pct,5.85,5.85,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),mean_equity_exposure_pct,29.74,29.74,0.0,REPRODUCED_EXACT
+STRAT_B_BREADTH_SWITCH,"5. Rule B: Dynamic Breadth Switch (Cash when Breadth < 50%, Net Cash 5.2%)",VALIDATION (2024-2025),time_in_full_cash_pct,59.92,59.92,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),executed_trades,12.0,12.0,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),trade_win_rate_pct,75.0,75.0,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),avg_win_inr,1542.47,1542.47,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),avg_loss_inr,-1657.84,-1657.84,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),realized_payoff_ratio,0.9304,0.9304,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),net_expectancy_inr,742.39,742.39,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),profit_factor,2.79,2.79,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),total_commissions_inr,1167.17,1167.17,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),final_equity_inr,112682.73,112682.73,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),net_return_pct,12.66,12.66,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),max_drawdown_pct,5.85,5.85,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),mean_equity_exposure_pct,29.74,29.74,0.0,REPRODUCED_EXACT
+STRAT_C_DUAL_FILTER,6. Rule C: Dual Unfavorable Switch (Cash when Breadth < 50% & Trend <= SMA50),VALIDATION (2024-2025),time_in_full_cash_pct,59.92,59.92,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),executed_trades,8.0,8.0,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),trade_win_rate_pct,87.5,87.5,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),avg_win_inr,1178.04,1178.04,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),avg_loss_inr,-2032.73,-2032.73,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),realized_payoff_ratio,0.5795,0.5795,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),net_expectancy_inr,776.69,776.69,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),profit_factor,4.06,4.06,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),total_commissions_inr,775.54,775.54,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),final_equity_inr,110443.19,110443.19,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),net_return_pct,10.42,10.42,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),max_drawdown_pct,3.21,3.21,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),mean_equity_exposure_pct,19.46,19.46,0.0,REPRODUCED_EXACT
+STRAT_D_TIERED_ALLOCATION,"7. Rule D: Multi-Regime Tiered (100% Fav, 50% Unc, 0% Unf, Net Cash 5.2%)",VALIDATION (2024-2025),time_in_full_cash_pct,57.49,57.49,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),executed_trades,16.0,16.0,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),trade_win_rate_pct,31.25,31.25,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),avg_win_inr,686.67,686.67,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),avg_loss_inr,-1234.78,-1234.78,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),realized_payoff_ratio,0.5561,0.5561,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),net_expectancy_inr,-634.33,-634.33,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),profit_factor,0.25,0.25,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),total_commissions_inr,1481.33,1481.33,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),final_equity_inr,92950.9,92950.9,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),net_return_pct,-7.07,-7.07,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),max_drawdown_pct,11.31,11.31,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),mean_equity_exposure_pct,36.08,36.08,0.0,REPRODUCED_EXACT
+STRAT_E_HEURISTIC_TREND,"8. Rule E: Heuristic Trend-Follower (No ML, Top Relative Strength, Net Cash 5.2%)",VALIDATION (2024-2025),time_in_full_cash_pct,58.3,58.3,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),executed_trades,3.0,3.0,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),trade_win_rate_pct,66.67,66.67,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),avg_win_inr,1334.59,1334.59,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),avg_loss_inr,-312.9,-312.9,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),realized_payoff_ratio,4.2652,4.2652,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),net_expectancy_inr,785.43,785.43,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),profit_factor,8.53,8.53,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),total_commissions_inr,289.27,289.27,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),final_equity_inr,107119.54,107119.54,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),net_return_pct,7.1,7.1,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),max_drawdown_pct,1.21,1.21,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),mean_equity_exposure_pct,7.66,7.66,0.0,REPRODUCED_EXACT
+STRAT_F_ML_PLUS_REGIME,"9. Rule F: ML-Plus-Regime Dynamic Alpha (Stock>SMA50, Asym 5%SL/12%TP, Net Cash 5.2%)",VALIDATION (2024-2025),time_in_full_cash_pct,76.52,76.52,0.0,REPRODUCED_EXACT

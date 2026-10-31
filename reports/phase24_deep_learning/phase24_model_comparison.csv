@@ -1,0 +1,5 @@
+model_name,test_balanced_accuracy_pct,test_macro_f1_pct,test_log_loss,test_brier_score,outperforms_lr_baseline
+Majority Baseline (Naive),50.0,28.16,21.9177,0.6081,False
+Logistic Regression (Phase 13 Baseline),44.56,40.02,0.7138,0.2603,False
+LSTM Classifier (60d Sequence),48.64,42.7,0.7512,0.2784,False
+GRU Classifier (60d Sequence),50.27,43.61,0.7493,0.2774,False

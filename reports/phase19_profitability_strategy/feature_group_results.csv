@@ -1,0 +1,7 @@
+feature_group,feature_count,data_availability,lr_val_balanced_acc_pct,lr_val_macro_f1_pct,lr_test_balanced_acc_pct,lr_test_macro_f1_pct,lgb_val_balanced_acc_pct,lgb_test_balanced_acc_pct
+A. Market Regime & Volatility,5,VERIFIED AVAILABLE (Historical OHLCV),35.49,32.77,40.45,40.02,31.3,37.62
+B. Stock Relative Strength vs Market Proxy,4,VERIFIED AVAILABLE (Historical OHLCV),32.8,31.38,34.64,32.39,32.47,32.47
+C. Market Breadth & Broad Market Conditions,3,VERIFIED AVAILABLE (Historical OHLCV),33.72,27.06,35.19,32.23,33.19,33.36
+D. Price Momentum & Trend,9,VERIFIED AVAILABLE (Historical OHLCV),33.82,31.55,35.08,30.0,33.9,36.01
+E. Fundamental Information,0,"UNAVAILABLE (Disclosed strictly per rules, zero synthetic data)",,,,,,
+All Combined Stationary Features,29,VERIFIED AVAILABLE (Historical OHLCV),35.93,34.86,38.23,36.35,31.59,33.34

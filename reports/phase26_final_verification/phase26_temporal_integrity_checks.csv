@@ -1,0 +1,5 @@
+fold_id,fold_name,train_end,val_start,val_end,test_start,test_end,chronological_ordering_passed,embargo_gap_1_days,embargo_gap_2_days,status
+1,Fold 1: 2023 Recovery,2022-09-30,2022-11-01,2022-12-30,2023-01-30,2023-12-29,True,32,31,PASSED
+2,Fold 2: 2024 Bull Run,2023-09-29,2023-11-01,2023-12-29,2024-02-01,2024-09-23,True,33,34,PASSED
+3,Fold 3: 2024-2025 Val,2024-06-28,2024-08-01,2024-09-23,2024-10-24,2025-09-19,True,34,31,PASSED
+4,Fold 4: 2025-2026 Test,2024-09-23,2024-10-24,2025-09-19,2025-10-23,2026-09-22,True,31,34,PASSED

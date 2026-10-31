@@ -1,0 +1,8 @@
+strategy_id,strategy_name,window,final_equity_inr,net_return_pct,max_drawdown_pct,sharpe_ratio,total_trades,win_rate_pct,profit_factor,commissions_inr,dividends_inr
+STRAT_P14_BASE,Phase 14 ML Baseline (Th 0.35),TEST (2025-2026),82538.93,-17.46,20.66,-1.69,27,29.63,0.31,2259.7,887.0
+STRAT_P15B_TH040,Phase 15B LR High Conviction (Th 0.40),TEST (2025-2026),98709.98,-1.29,10.7,-0.69,16,50.0,0.81,1489.28,1046.5
+STRAT_P15B_TH042,Phase 15B LR Ultra Selective (Th 0.42),TEST (2025-2026),99777.26,-0.22,7.97,-0.63,11,63.64,0.84,1042.73,1053.0
+STRAT_P16_TH038_SMA,Phase 16 LR Comb A (Th 0.38 + SMA50),TEST (2025-2026),96335.41,-3.66,6.04,-1.69,8,25.0,0.42,761.24,408.0
+STRAT_P16_TH038_SMA_STOP7,Phase 16 LR Comb C (Th 0.38 + SMA50 + 7% Stop),TEST (2025-2026),96949.61,-3.05,6.6,-1.44,9,22.22,0.48,858.08,408.0
+STRAT_P16_TH040,Phase 16 LR High Conviction (Th 0.40),TEST (2025-2026),98709.98,-1.29,10.7,-0.69,16,50.0,0.81,1489.28,1046.5
+STRAT_P16_TH042,Phase 16 LR Ultra Selective (Th 0.42),TEST (2025-2026),99777.26,-0.22,7.97,-0.63,11,63.64,0.84,1042.73,1053.0

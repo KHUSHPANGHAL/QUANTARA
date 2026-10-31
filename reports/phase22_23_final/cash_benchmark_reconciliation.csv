@@ -1,0 +1,4 @@
+evaluation_window,window_date_range,trading_sessions,calendar_days,scheme_name,amfi_code,isin,start_nav_inr,end_nav_inr,actual_gross_return_pct,annualized_gross_yield_pct,net_return_20pct_tax_pct,net_return_39pct_slab_pct,final_equity_net20_inr,verification_status
+VALIDATION,2024-10-24 to 2025-10-21,247,361,Nippon India Liquid Fund - Direct Plan - Growth Option,118701,INF204K01ZH0,6152.8079,6569.0472,6.765,6.85,5.412,4.1267,105412.02,VERIFIED_FROM_OFFICIAL_AMFI_RECORDS
+REUSED_TEST,2025-10-23 to 2026-10-23,248,365,Nippon India Liquid Fund - Direct Plan - Growth Option,118701,INF204K01ZH0,6572.2315,6997.3358,6.4682,6.47,5.1746,3.9456,105174.55,VERIFIED_FROM_OFFICIAL_AMFI_RECORDS
+FORWARD_WINDOW,2026-09-23 to 2026-10-23,21,30,Nippon India Liquid Fund - Direct Plan - Growth Option,118701,INF204K01ZH0,6969.8122,6997.3358,0.3949,4.92,0.3159,0.2409,100315.92,VERIFIED_FROM_OFFICIAL_AMFI_RECORDS

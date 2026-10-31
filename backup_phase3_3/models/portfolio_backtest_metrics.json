@@ -1,0 +1,83 @@
+{
+  "parameters": {
+    "starting_capital": 100000.0,
+    "max_positions": 3,
+    "max_hold_sessions": 5,
+    "slippage_pct": 0.0005,
+    "buy_statutory_fee_pct": 0.001544,
+    "sell_statutory_fee_pct": 0.001394,
+    "round_trip_friction_pct": 0.003937,
+    "fee_schedule_details": {
+      "brokerage_pct": 0.0003,
+      "stt_buy_pct": 0.001,
+      "stt_sell_pct": 0.001,
+      "exchange_turnover_pct": 3.25e-05,
+      "sebi_turnover_pct": 1e-06,
+      "stamp_duty_buy_pct": 0.00015,
+      "gst_rate": 0.18,
+      "slippage_pct": 0.0005
+    },
+    "cash_yield_annual_assumed": 0.065,
+    "cash_benchmark_note": "Assumed 6.50% annualized yield (based on RBI repo benchmark; actual retail cash rates vary)",
+    "dividend_accounting": "Ex-dividend cash distributions credited on ex-date for shares held prior to ex-date",
+    "start_date": "2025-10-23",
+    "end_date": "2026-10-23",
+    "total_trading_sessions": 248
+  },
+  "logistic_regression": {
+    "initial_equity": 100000.0,
+    "final_equity": 91876.19089434337,
+    "total_return_pct": -8.123809105656633,
+    "cagr_pct": -8.249279971865297,
+    "max_drawdown_pct": 17.541176681739817,
+    "annualized_volatility_pct": 15.317210313542448,
+    "sharpe_ratio": -0.8970558621305231,
+    "total_trades_completed": 127,
+    "win_rate_pct": 44.881889763779526,
+    "profit_factor": 0.8136462651537449,
+    "total_commissions_paid": 11012.639956783121,
+    "total_dividends_received": 1905.4979
+  },
+  "lightgbm": {
+    "initial_equity": 100000.0,
+    "final_equity": 63812.97641956197,
+    "total_return_pct": -36.18702358043803,
+    "cagr_pct": -36.64770199893397,
+    "max_drawdown_pct": 38.98996542509078,
+    "annualized_volatility_pct": 15.531223318264406,
+    "sharpe_ratio": -3.2643285394373875,
+    "total_trades_completed": 177,
+    "win_rate_pct": 37.28813559322034,
+    "profit_factor": 0.43518057903592217,
+    "total_commissions_paid": 13363.222122308724,
+    "total_dividends_received": 1782.0
+  },
+  "buy_and_hold_benchmark": {
+    "initial_equity": 100000.0,
+    "final_equity": 85547.160424789,
+    "total_return_pct": -14.452839575210993,
+    "cagr_pct": -14.667957606282634,
+    "max_drawdown_pct": 21.70897985625359,
+    "annualized_volatility_pct": 13.235327222892773,
+    "sharpe_ratio": -1.6080149698976722,
+    "total_trades_completed": 8,
+    "win_rate_pct": 25.0,
+    "profit_factor": 0.03484072489350319,
+    "total_commissions_paid": 262.7452756779256,
+    "total_dividends_received": 1934.0488
+  },
+  "cash_benchmark": {
+    "initial_equity": 100000.0,
+    "final_equity": 106393.59579110258,
+    "total_return_pct": 6.393595791102576,
+    "cagr_pct": 6.500000000002126,
+    "max_drawdown_pct": 0.0,
+    "annualized_volatility_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "total_trades_completed": 0,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_commissions_paid": 0.0,
+    "total_dividends_received": 0.0
+  }
+}

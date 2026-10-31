@@ -1,0 +1,8 @@
+strategy_id,strategy_name,completed_trades,win_rate_pct,win_rate_95pct_ci,avg_win_inr,avg_loss_inr,realized_payoff_ratio,net_expectancy_per_trade_inr,expectancy_95pct_ci_inr,profit_factor,max_drawdown_pct,time_in_cash_pct,turnover_multiple,total_commissions_inr,net_return_pct
+STRAT_P14_BASE,Phase 14 ML Baseline (Th 0.35),27,29.63,"[14.8%, 48.2%]",943.35,-1441.73,0.65,-646.71,"[-1323.83, 17.40]",0.31,20.66,18.95,7.77,2259.7,-17.46
+STRAT_P15B_TH040,Phase 15B LR High Conviction (Th 0.40),16,50.0,"[25.0%, 75.0%]",1230.97,-1392.22,0.88,-80.63,"[-811.97, 635.88]",0.81,10.7,44.35,5.07,1489.28,-1.29
+STRAT_P15B_TH042,Phase 15B LR Ultra Selective (Th 0.42),11,63.64,"[36.4%, 90.9%]",945.1,-1709.62,0.55,-20.25,"[-1014.34, 782.22]",0.84,7.97,54.44,3.55,1042.73,-0.22
+STRAT_P16_TH038_SMA,Phase 16 LR Comb A (Th 0.38 + SMA50),8,25.0,"[0.0%, 62.5%]",1696.15,-1176.15,1.44,-458.07,"[-1642.43, 602.85]",0.42,6.04,61.69,2.61,761.24,-3.66
+STRAT_P16_TH038_SMA_STOP7,Phase 16 LR Comb C (Th 0.38 + SMA50 + 7% Stop),9,22.22,"[0.0%, 55.6%]",1786.8,-946.28,1.89,-338.93,"[-1276.64, 553.33]",0.48,6.6,65.32,2.93,858.08,-3.05
+STRAT_P16_TH040,Phase 16 LR High Conviction (Th 0.40),16,50.0,"[25.0%, 75.0%]",1230.97,-1392.22,0.88,-80.63,"[-817.07, 670.04]",0.81,10.7,44.35,5.07,1489.28,-1.29
+STRAT_P16_TH042,Phase 16 LR Ultra Selective (Th 0.42),11,63.64,"[36.4%, 90.9%]",945.1,-1709.62,0.55,-20.25,"[-913.43, 823.86]",0.84,7.97,54.44,3.55,1042.73,-0.22

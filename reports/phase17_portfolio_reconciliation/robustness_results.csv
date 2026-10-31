@@ -1,0 +1,29 @@
+experiment_name,evaluation_window,cost_scenario,final_equity_inr,net_return_pct,cagr_pct,max_drawdown_pct,sharpe_ratio,total_trades,win_rate_pct,profit_factor,commissions_paid_inr
+1. Cash Benchmark (6.5% Yield),VALIDATION (2024-2025),Base (0.39%),106340.43,6.34,6.47,0.0,0.0,0,0.0,0.0,0.0
+1. Cash Benchmark (6.5% Yield),VALIDATION (2024-2025),Conservative (0.50%),106340.43,6.34,6.47,0.0,0.0,0,0.0,0.0,0.0
+1. Cash Benchmark (6.5% Yield),REUSED TEST (2025-2026),Base (0.39%),106367.01,6.37,6.47,0.0,0.0,0,0.0,0.0,0.0
+1. Cash Benchmark (6.5% Yield),REUSED TEST (2025-2026),Conservative (0.50%),106367.01,6.37,6.47,0.0,0.0,0,0.0,0.0,0.0
+2. Buy & Hold Benchmark,VALIDATION (2024-2025),Base (0.39%),101570.45,1.57,1.6,12.59,-0.32,0,0.0,0.0,0.0
+2. Buy & Hold Benchmark,VALIDATION (2024-2025),Conservative (0.50%),101570.45,1.57,1.6,12.59,-0.32,0,0.0,0.0,0.0
+2. Buy & Hold Benchmark,REUSED TEST (2025-2026),Base (0.39%),84401.47,-15.6,-15.83,23.92,-1.63,0,0.0,0.0,0.0
+2. Buy & Hold Benchmark,REUSED TEST (2025-2026),Conservative (0.50%),84401.47,-15.6,-15.83,23.92,-1.63,0,0.0,0.0,0.0
+"3. Reconciled Baseline (Th 0.42, 20d Hold)",VALIDATION (2024-2025),Base (0.39%),105136.47,5.14,5.24,3.76,-0.18,4,75.0,3.13,386.94
+"3. Reconciled Baseline (Th 0.42, 20d Hold)",VALIDATION (2024-2025),Conservative (0.50%),104906.74,4.91,5.01,3.76,-0.21,4,75.0,2.99,484.79
+"3. Reconciled Baseline (Th 0.42, 20d Hold)",REUSED TEST (2025-2026),Base (0.39%),99777.26,-0.22,-0.23,7.97,-0.63,11,63.64,0.84,1042.73
+"3. Reconciled Baseline (Th 0.42, 20d Hold)",REUSED TEST (2025-2026),Conservative (0.50%),99156.57,-0.84,-0.86,8.14,-0.7,11,63.64,0.77,1305.01
+"4. Stop-Loss Alt A (Th 0.42, 5% Stop)",VALIDATION (2024-2025),Base (0.39%),105860.94,5.86,5.98,2.96,-0.07,4,75.0,4.48,387.95
+"4. Stop-Loss Alt A (Th 0.42, 5% Stop)",VALIDATION (2024-2025),Conservative (0.50%),105645.5,5.65,5.76,2.97,-0.1,4,75.0,4.28,486.1
+"4. Stop-Loss Alt A (Th 0.42, 5% Stop)",REUSED TEST (2025-2026),Base (0.39%),97744.52,-2.26,-2.29,6.88,-1.04,11,54.55,0.75,1034.67
+"4. Stop-Loss Alt A (Th 0.42, 5% Stop)",REUSED TEST (2025-2026),Conservative (0.50%),97245.08,-2.75,-2.8,7.14,-1.11,11,54.55,0.7,1291.66
+"5. Stop-Loss Alt B (Th 0.42, 7% Stop)",VALIDATION (2024-2025),Base (0.39%),103472.94,3.47,3.54,4.97,-0.41,4,75.0,1.93,375.06
+"5. Stop-Loss Alt B (Th 0.42, 7% Stop)",VALIDATION (2024-2025),Conservative (0.50%),103250.32,3.25,3.32,5.0,-0.45,4,75.0,1.86,469.88
+"5. Stop-Loss Alt B (Th 0.42, 7% Stop)",REUSED TEST (2025-2026),Base (0.39%),98084.26,-1.92,-1.95,8.3,-0.96,11,63.64,0.79,1024.13
+"5. Stop-Loss Alt B (Th 0.42, 7% Stop)",REUSED TEST (2025-2026),Conservative (0.50%),97529.69,-2.47,-2.51,8.52,-1.02,11,63.64,0.74,1281.83
+"6. Take-Profit Alt A (Th 0.42, 10% TP)",VALIDATION (2024-2025),Base (0.39%),104527.53,4.53,4.62,3.76,-0.4,4,75.0,2.88,386.09
+"6. Take-Profit Alt A (Th 0.42, 10% TP)",VALIDATION (2024-2025),Conservative (0.50%),104333.93,4.33,4.42,3.76,-0.45,4,75.0,2.76,483.78
+"6. Take-Profit Alt A (Th 0.42, 10% TP)",REUSED TEST (2025-2026),Base (0.39%),99375.13,-0.62,-0.63,8.33,-0.6,11,54.55,0.85,1037.83
+"6. Take-Profit Alt A (Th 0.42, 10% TP)",REUSED TEST (2025-2026),Conservative (0.50%),98755.22,-1.24,-1.26,8.46,-0.66,11,54.55,0.81,1296.36
+"7. Combined SL & TP (Th 0.42, 7% Stop + 12% TP)",VALIDATION (2024-2025),Base (0.39%),103702.27,3.7,3.78,4.97,-0.47,4,75.0,1.99,375.38
+"7. Combined SL & TP (Th 0.42, 7% Stop + 12% TP)",VALIDATION (2024-2025),Conservative (0.50%),103497.56,3.5,3.57,5.0,-0.51,4,75.0,1.92,470.32
+"7. Combined SL & TP (Th 0.42, 7% Stop + 12% TP)",REUSED TEST (2025-2026),Base (0.39%),98084.26,-1.92,-1.95,8.3,-0.96,11,63.64,0.79,1024.13
+"7. Combined SL & TP (Th 0.42, 7% Stop + 12% TP)",REUSED TEST (2025-2026),Conservative (0.50%),97529.69,-2.47,-2.51,8.52,-1.02,11,63.64,0.74,1281.83

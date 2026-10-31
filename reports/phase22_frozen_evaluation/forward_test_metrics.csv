@@ -1,0 +1,7 @@
+strategy_id,strategy_name,forward_test_window,forward_sessions_count,starting_capital_inr,final_equity_inr,standard_net_return_pct,max_drawdown_pct,executed_trades,trade_win_rate_pct,mean_equity_exposure_pct,time_in_100pct_cash_pct,sample_sufficiency_status
+FROZEN_RULE_D,Frozen Rule D: Multi-Regime Tiered,2026-09-23 to 2026-10-23,21,100000.0,100164.95,0.16,1.04,3,33.33,20.2,71.43,"PRELIMINARY (N=21 sessions, insufficient for statistical significance)"
+FROZEN_RULE_E,Frozen Rule E: Heuristic Trend-Follower,2026-09-23 to 2026-10-23,21,100000.0,99915.18,-0.08,2.98,3,33.33,18.23,80.95,"PRELIMINARY (N=21 sessions, insufficient for statistical significance)"
+FROZEN_RULE_F,Frozen Rule F: ML-Plus-Regime Alpha,2026-09-23 to 2026-10-23,21,100000.0,100183.72,0.18,0.36,2,0.0,9.14,80.95,"PRELIMINARY (N=21 sessions, insufficient for statistical significance)"
+BENCH_BUY_AND_HOLD,Buy & Hold Benchmark (Equal Weight 8 Stocks),2026-09-23 to 2026-10-23,21,100000.0,102621.62,2.62,3.27,0,0.0,100.0,0.0,PRELIMINARY (N=21 sessions)
+BENCH_AUTHENTIC_LIQUID_NET20,Authentic Liquid Fund Benchmark (Nippon India Liquid Net 20% Tax),2026-09-23 to 2026-10-23,21,100000.0,100315.92,0.32,0.0,0,0.0,0.0,100.0,PRELIMINARY (N=21 sessions)
+BENCH_CASH_ZERO,Cash Benchmark (0.0% Yield - Idle Trading Account Cash),2026-09-23 to 2026-10-23,21,100000.0,100000.0,0.0,0.0,0,0.0,0.0,100.0,PRELIMINARY (N=21 sessions)

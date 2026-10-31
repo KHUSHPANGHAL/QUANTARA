@@ -1,0 +1,13 @@
+window,stop_loss_rule,cost_scenario,final_equity_inr,net_return_pct,max_drawdown_pct,sharpe_ratio,total_trades,win_rate_pct,avg_win_inr,avg_loss_inr,profit_factor,commissions_paid_inr
+VALIDATION,No Stop-Loss (20d Hold),Base (0.39%),99609.85,-0.39,9.61,-0.44,26,50.0,997.98,-1241.83,0.8,2464.69
+VALIDATION,No Stop-Loss (20d Hold),Conservative (0.50%),98426.1,-1.57,9.9,-0.53,26,46.15,1043.96,-1205.36,0.74,3072.62
+VALIDATION,5% Stop-Loss,Base (0.39%),94508.87,-5.49,11.98,-0.91,30,43.33,1147.16,-1327.07,0.66,2719.7
+VALIDATION,5% Stop-Loss,Conservative (0.50%),92713.91,-7.29,12.64,-1.06,30,43.33,1080.01,-1380.75,0.6,3394.82
+VALIDATION,7% Stop-Loss,Base (0.39%),97579.1,-2.42,11.48,-0.65,29,51.72,1359.8,-1748.94,0.83,2699.14
+VALIDATION,7% Stop-Loss,Conservative (0.50%),96167.44,-3.83,12.05,-0.77,29,51.72,1294.99,-1778.64,0.78,3352.38
+TEST,No Stop-Loss (20d Hold),Base (0.39%),82538.93,-17.46,20.66,-1.69,27,29.63,1017.5,-1394.11,0.31,2259.7
+TEST,No Stop-Loss (20d Hold),Conservative (0.50%),81320.58,-18.68,21.08,-1.78,27,29.63,971.34,-1438.8,0.28,2812.72
+TEST,5% Stop-Loss,Base (0.39%),84405.44,-15.59,18.84,-1.67,34,29.41,1392.94,-1299.04,0.45,2924.55
+TEST,5% Stop-Loss,Conservative (0.50%),83171.99,-16.83,19.5,-1.78,34,29.41,1347.21,-1331.38,0.42,3634.39
+TEST,7% Stop-Loss,Base (0.39%),82031.07,-17.97,20.2,-1.82,30,33.33,789.4,-1342.3,0.29,2511.7
+TEST,7% Stop-Loss,Conservative (0.50%),77673.81,-22.33,24.5,-2.16,32,37.5,584.77,-1530.57,0.23,3254.48

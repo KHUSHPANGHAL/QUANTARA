@@ -1,0 +1,8 @@
+check_item,observed_value,expected_value,status,notes
+Total Historical Observations,4302,> 4000,PASSED,Historical range: 2013-01-01 to 2026-10-28
+Duplicate Calendar Dates,0,0,PASSED,One NAV per date
+Missing / Null NAV Values,0,0,PASSED,No missing NAV points
+Zero or Negative NAV Observations,0,0,PASSED,All NAVs strictly positive
+Maximum 1-Day NAV Drop,-0.2408%,> -1.0%,PASSED,Worst drop was -0.24% during 2013 RBI tightening
+Maximum 1-Day NAV Gain,0.3276%,< 1.0%,PASSED,Reflects standard liquid fund daily accrual
+Authentic Data Source Verification,AMFI Scheme Code 118701,AMFI / SEBI Registered,PASSED,"Direct Growth Option, ISIN: INF204K01ZH0"

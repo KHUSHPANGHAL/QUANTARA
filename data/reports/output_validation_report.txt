@@ -1,0 +1,80 @@
+QUANTARA AI OUTPUT VALIDATION
+================================
+PASS | source_has_no_duplicate_symbol_dates
+PASS | source_required_values_present
+PASS | source_rows_not_synthetic_claimed | Build uses supplied source rows only.
+PASS | 1d_train_X_y_metadata_row_counts_match
+PASS | 1d_train_X_has_only_declared_features
+PASS | 1d_train_X_all_numeric_finite
+PASS | 1d_train_labels_have_expected_columns
+PASS | 1d_train_labels_are_not_in_X
+PASS | 1d_train_target_classes_valid
+PASS | 1d_train_class_labels_match_configured_thresholds
+PASS | 1d_validation_X_y_metadata_row_counts_match
+PASS | 1d_validation_X_has_only_declared_features
+PASS | 1d_validation_X_all_numeric_finite
+PASS | 1d_validation_labels_have_expected_columns
+PASS | 1d_validation_labels_are_not_in_X
+PASS | 1d_validation_target_classes_valid
+PASS | 1d_validation_class_labels_match_configured_thresholds
+PASS | 1d_test_X_y_metadata_row_counts_match
+PASS | 1d_test_X_has_only_declared_features
+PASS | 1d_test_X_all_numeric_finite
+PASS | 1d_test_labels_have_expected_columns
+PASS | 1d_test_labels_are_not_in_X
+PASS | 1d_test_target_classes_valid
+PASS | 1d_test_class_labels_match_configured_thresholds
+PASS | 1d_train_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 1d_validation_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 1d_test_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 5d_train_X_y_metadata_row_counts_match
+PASS | 5d_train_X_has_only_declared_features
+PASS | 5d_train_X_all_numeric_finite
+PASS | 5d_train_labels_have_expected_columns
+PASS | 5d_train_labels_are_not_in_X
+PASS | 5d_train_target_classes_valid
+PASS | 5d_train_class_labels_match_configured_thresholds
+PASS | 5d_validation_X_y_metadata_row_counts_match
+PASS | 5d_validation_X_has_only_declared_features
+PASS | 5d_validation_X_all_numeric_finite
+PASS | 5d_validation_labels_have_expected_columns
+PASS | 5d_validation_labels_are_not_in_X
+PASS | 5d_validation_target_classes_valid
+PASS | 5d_validation_class_labels_match_configured_thresholds
+PASS | 5d_test_X_y_metadata_row_counts_match
+PASS | 5d_test_X_has_only_declared_features
+PASS | 5d_test_X_all_numeric_finite
+PASS | 5d_test_labels_have_expected_columns
+PASS | 5d_test_labels_are_not_in_X
+PASS | 5d_test_target_classes_valid
+PASS | 5d_test_class_labels_match_configured_thresholds
+PASS | 5d_train_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 5d_validation_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 5d_test_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 20d_train_X_y_metadata_row_counts_match
+PASS | 20d_train_X_has_only_declared_features
+PASS | 20d_train_X_all_numeric_finite
+PASS | 20d_train_labels_have_expected_columns
+PASS | 20d_train_labels_are_not_in_X
+PASS | 20d_train_target_classes_valid
+PASS | 20d_train_class_labels_match_configured_thresholds
+PASS | 20d_validation_X_y_metadata_row_counts_match
+PASS | 20d_validation_X_has_only_declared_features
+PASS | 20d_validation_X_all_numeric_finite
+PASS | 20d_validation_labels_have_expected_columns
+PASS | 20d_validation_labels_are_not_in_X
+PASS | 20d_validation_target_classes_valid
+PASS | 20d_validation_class_labels_match_configured_thresholds
+PASS | 20d_test_X_y_metadata_row_counts_match
+PASS | 20d_test_X_has_only_declared_features
+PASS | 20d_test_X_all_numeric_finite
+PASS | 20d_test_labels_have_expected_columns
+PASS | 20d_test_labels_are_not_in_X
+PASS | 20d_test_target_classes_valid
+PASS | 20d_test_class_labels_match_configured_thresholds
+PASS | 20d_train_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 20d_validation_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+PASS | 20d_test_chronological_and_target_boundary_safe | train cutoff 2024-10-23, validation cutoff 2025-10-21
+
+Checks passed: 75 / 75
+Failures: 0

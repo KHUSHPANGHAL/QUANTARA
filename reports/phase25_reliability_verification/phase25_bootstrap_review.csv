@@ -1,0 +1,10 @@
+model_name,resampling_method,dependence_structure_preserved,replicates,random_seed,point_balanced_acc_pct,ci_95_balanced_acc,ci_width_balanced_acc_pct,point_macro_f1_pct,ci_95_macro_f1,crosses_50pct_threshold
+Logistic Regression (Phase 13 Baseline),i.i.d. Row Resampling (Phase 24),None (Assumes cross-stock & temporal independence),1000,42,44.56,"[42.18%, 47.22%]",5.04,40.02,"[37.64%, 42.57%]",False
+LSTM Classifier (60d Sequence),i.i.d. Row Resampling (Phase 24),None (Assumes cross-stock & temporal independence),1000,42,48.64,"[46.01%, 51.03%]",5.02,42.7,"[39.93%, 45.49%]",True
+GRU Classifier (60d Sequence),i.i.d. Row Resampling (Phase 24),None (Assumes cross-stock & temporal independence),1000,42,50.27,"[47.98%, 52.55%]",4.57,43.61,"[41.03%, 46.26%]",True
+Logistic Regression (Phase 13 Baseline),Date-Clustered Bootstrap,Cross-Sectional (All 8 stocks clustered by date),1000,42,44.56,"[41.77%, 47.46%]",5.69,40.02,"[36.86%, 43.32%]",False
+LSTM Classifier (60d Sequence),Date-Clustered Bootstrap,Cross-Sectional (All 8 stocks clustered by date),1000,42,48.64,"[45.85%, 51.19%]",5.34,42.7,"[39.73%, 45.61%]",True
+GRU Classifier (60d Sequence),Date-Clustered Bootstrap,Cross-Sectional (All 8 stocks clustered by date),1000,42,50.27,"[47.85%, 52.70%]",4.85,43.61,"[40.49%, 46.48%]",True
+Logistic Regression (Phase 13 Baseline),20-Day Block Clustered Bootstrap,Cross-Sectional & Serial (20-day horizon block),1000,42,44.56,"[41.24%, 51.77%]",10.53,40.02,"[32.46%, 47.64%]",True
+LSTM Classifier (60d Sequence),20-Day Block Clustered Bootstrap,Cross-Sectional & Serial (20-day horizon block),1000,42,48.64,"[41.41%, 56.84%]",15.43,42.7,"[34.49%, 50.33%]",True
+GRU Classifier (60d Sequence),20-Day Block Clustered Bootstrap,Cross-Sectional & Serial (20-day horizon block),1000,42,50.27,"[43.86%, 57.17%]",13.3,43.61,"[34.73%, 50.56%]",True

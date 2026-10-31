@@ -1,0 +1,36 @@
+QUANTARA AI - PHASE 26 REPRODUCIBILITY EXECUTION LOG
+Generated: 2026-10-30 00:35:00
+Workspace: c:\Project Data\Quantara_AI_Audited_Data
+Python Executable: C:\Users\khush\anaconda3\python.exe
+PyTorch Version: 2.15.0+cpu
+
+MANDATORY INTEGRITY AUDIT TABLE:
+Requirement                               Status    Evidence
+Corrected training-prior probabilities    PASS      Empirical train frequencies P(DOWN) and P(UP) derived per fold
+Probability sums and class ordering       PASS      100% valid probabilities, sum to 1.0, Class 0=DOWN, Class 1=UP
+Corrected log loss and Brier score        PASS      Test log loss reduced from 21.9177 to valid 0.7794
+Regression test prevents original bug     PASS      phase26_regression_tests.csv asserts rejection of [0, 1]
+Fresh LSTM training per fold              PASS      4 distinct LSTM checkpoints saved in models/phase26/
+Fresh GRU training per fold               PASS      4 distinct GRU checkpoints saved in models/phase26/
+Strict chronological fold boundaries      PASS      phase26_walk_forward_fold_definitions.csv (Train < Val < Test)
+Target-overlap purge/embargo              PASS      20-22 day embargo periods between splits strictly enforced
+Train-only preprocessing                  PASS      StandardScaler fitted only on train features per fold
+Genuine out-of-sample predictions         PASS      4,647 pooled out-of-sample predictions (2023 to 2026)
+Dependence-aware uncertainty analysis     PASS      20-Day block clustered bootstrap (B=1,000, seed=42)
+Results reproduced from saved predictions PASS      All metrics calculated directly from phase26_oos_predictions.csv
+Existing frozen strategies preserved      PASS      Frozen Rules D, E, F untouched and verified
+
+CHECKPOINT ARTIFACT RECORD:
+Checkpoint: gru_fold1.pt              Size:   175267 bytes, SHA256: 822aa7a0ad0b3a9db187a41bb9ce045c7921319c5c2a3821a37c152a4e21a603
+Checkpoint: gru_fold2.pt              Size:   175267 bytes, SHA256: 39af76029beb193d526bc5ec9a7ec80ae93f3ea4d7ffab2374e2a6b28d7d9f78
+Checkpoint: gru_fold3.pt              Size:   175267 bytes, SHA256: 33e2def2c1eeab5ff0337da3da82c3c6f4df4a78cb35dc745e1f0e49ca9e66ff
+Checkpoint: gru_fold4.pt              Size:   175267 bytes, SHA256: 7bb1fa7415e46c413b52662c6ad22df5ba27f80ce42817d23d8c1c4e97ea5779
+Checkpoint: lstm_fold1.pt             Size:   229365 bytes, SHA256: f31de12962b78315ea0842217d8481ff2452b41215440fe2c47936a287da2369
+Checkpoint: lstm_fold2.pt             Size:   229365 bytes, SHA256: b288f7e303bdded2b8f2d57d77f884617a2dc1e60f588c2f1f4560a6311b5182
+Checkpoint: lstm_fold3.pt             Size:   229365 bytes, SHA256: 112abb571aa63e1045db8813bc54dfb14798b0f9f3032d8fe1b14da17e089d70
+Checkpoint: lstm_fold4.pt             Size:   229365 bytes, SHA256: bacdf74dda1a82fc184ebc93a0dc679468e82ef451e06d997d9e4369e90954b8
+Scaler:     scaler_fold1.joblib       Size:     1439 bytes, SHA256: a884260dbe1c905b331ea0a058da6f3595b16127bcfebba75b25fe336822c153
+Scaler:     scaler_fold2.joblib       Size:     1439 bytes, SHA256: e8ebf42007dc2463eef250785f0ef30a6ba844fead333333d45c50ff3411cbb0
+Scaler:     scaler_fold3.joblib       Size:     1439 bytes, SHA256: 3c597036da09a25b5e7dbb157497d391f6305a2b72445e9a4f40bb2be2eb4243
+Scaler:     scaler_fold4.joblib       Size:     1439 bytes, SHA256: b591dc5b1364972f778d9758ec53fe2d3c16a3c5d6e27e2898c1995817d2bb34
+

@@ -1,0 +1,17 @@
+fold_id,fold_name,model_name,probabilities_in_0_1_range,probabilities_sum_to_one,is_finite,min_probability,max_probability,status
+1,Fold 1: 2023 Recovery,Corrected Majority,True,True,True,0.387439,0.612561,PASSED
+1,Fold 1: 2023 Recovery,LR,True,True,True,0.396131,0.603869,PASSED
+1,Fold 1: 2023 Recovery,LSTM,True,True,True,0.392615,0.607385,PASSED
+1,Fold 1: 2023 Recovery,GRU,True,True,True,0.362652,0.637348,PASSED
+2,Fold 2: 2024 Bull Run,Corrected Majority,True,True,True,0.390144,0.609856,PASSED
+2,Fold 2: 2024 Bull Run,LR,True,True,True,0.386738,0.613262,PASSED
+2,Fold 2: 2024 Bull Run,LSTM,True,True,True,0.413429,0.586571,PASSED
+2,Fold 2: 2024 Bull Run,GRU,True,True,True,0.418908,0.581092,PASSED
+3,Fold 3: 2024-2025 Val,Corrected Majority,True,True,True,0.375771,0.624229,PASSED
+3,Fold 3: 2024-2025 Val,LR,True,True,True,0.377697,0.622303,PASSED
+3,Fold 3: 2024-2025 Val,LSTM,True,True,True,0.334475,0.665525,PASSED
+3,Fold 3: 2024-2025 Val,GRU,True,True,True,0.384259,0.615741,PASSED
+4,Fold 4: 2025-2026 Test,Corrected Majority,True,True,True,0.376221,0.623779,PASSED
+4,Fold 4: 2025-2026 Test,LR,True,True,True,0.342643,0.657357,PASSED
+4,Fold 4: 2025-2026 Test,LSTM,True,True,True,0.381898,0.618102,PASSED
+4,Fold 4: 2025-2026 Test,GRU,True,True,True,0.331432,0.668567,PASSED

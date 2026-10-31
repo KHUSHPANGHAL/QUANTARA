@@ -1,0 +1,5 @@
+fold_id,fold_name,market_regime,train_start,train_end,purge1_start,purge1_end,val_start,val_end,purge2_start,purge2_end,test_start,test_end
+1,Fold 1: 2023 Recovery,Broad Post-Correction Recovery,2017-01-03,2022-09-30,2022-10-01,2022-10-31,2022-11-01,2022-12-30,2023-01-01,2023-01-27,2023-01-30,2023-12-29
+2,Fold 2: 2024 Bull Run,Strong Domestic Equity Liquidity,2017-01-03,2023-09-29,2023-10-01,2023-10-31,2023-11-01,2023-12-29,2024-01-01,2024-01-31,2024-02-01,2024-09-23
+3,Fold 3: 2024-2025 Val,Sideways Consolidation,2017-01-03,2024-06-28,2024-07-01,2024-07-31,2024-08-01,2024-09-23,2024-09-24,2024-10-23,2024-10-24,2025-09-19
+4,Fold 4: 2025-2026 Test,Severe Large-Cap Downtrend,2017-01-03,2024-09-23,2024-09-24,2024-10-23,2024-10-24,2025-09-19,2025-09-20,2025-10-22,2025-10-23,2026-09-22

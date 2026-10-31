@@ -1,0 +1,7 @@
+horizon_sessions,horizon_label,evaluation_window,directional_accuracy_pct,balanced_accuracy_pct,majority_baseline_bal_acc_pct,macro_f1_pct,trades_count,trade_win_rate_pct,avg_win_inr,avg_loss_inr,realized_payoff_ratio,net_expectancy_inr,total_commissions_inr,final_equity_inr,net_return_pct,max_drawdown_pct
+1,1-Day Forward Target,VALIDATION (2024-2025),38.62,37.4,33.33,32.65,69,44.93,364.05,-362.66,1.0039,-36.16,6582.98,97504.77,-2.5,4.88
+1,1-Day Forward Target,REUSED TEST (2025-2026),39.38,40.72,33.33,38.06,181,43.65,421.26,-479.95,0.8777,-86.6,14951.96,84324.87,-15.68,22.01
+5,5-Day Forward Target,VALIDATION (2024-2025),34.02,35.63,33.33,30.8,29,58.62,1090.63,-1104.03,0.9879,182.49,2860.48,105292.25,5.29,7.78
+5,5-Day Forward Target,REUSED TEST (2025-2026),35.49,37.28,33.33,34.9,61,44.26,1024.41,-890.6,1.1502,-42.98,5736.19,97378.43,-2.62,12.42
+20,20-Day Forward Target,VALIDATION (2024-2025),37.5,36.54,33.33,35.74,18,77.78,1287.74,-919.75,1.4001,797.18,1872.52,114349.27,14.35,6.95
+20,20-Day Forward Target,REUSED TEST (2025-2026),34.8,36.55,33.33,34.8,22,36.36,1250.37,-1554.04,0.8046,-534.26,1970.28,88246.32,-11.75,17.09

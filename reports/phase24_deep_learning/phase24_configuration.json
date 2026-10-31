@@ -1,0 +1,65 @@
+{
+  "phase": 24,
+  "objective": "Deep Learning Model Implementation and Reliability Review (LSTM & GRU)",
+  "date_executed": "2026-10-29",
+  "pytorch_version": "2.15.0+cpu",
+  "random_seed": 42,
+  "sequence_length": 60,
+  "prediction_horizon_sessions": 20,
+  "target_definition": "Target_Binary_20d: UP (> +2.0%), DOWN (< -2.0%), EXCLUDE_HOLD omitted",
+  "features_used": [
+    "daily_return_1d",
+    "return_5d",
+    "return_10d",
+    "return_20d",
+    "adj_close_vs_sma20",
+    "adj_close_vs_sma50",
+    "adj_close_vs_ema12",
+    "adj_close_vs_ema20",
+    "adj_close_vs_ema26",
+    "rsi_14",
+    "macd_pct",
+    "macd_signal_pct",
+    "macd_histogram_pct",
+    "bollinger_percent_b",
+    "bollinger_width_pct"
+  ],
+  "num_features": 15,
+  "lstm_architecture": {
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "fc_layers": [
+      32,
+      2
+    ],
+    "fc_dropout": 0.3,
+    "total_parameters": 56162
+  },
+  "gru_architecture": {
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "fc_layers": [
+      32,
+      2
+    ],
+    "fc_dropout": 0.3,
+    "total_parameters": 42658
+  },
+  "training_hyperparameters": {
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss with Training Class Weighting",
+    "class_weights": {
+      "DOWN": 1.329007285974499,
+      "UP": 0.8015655039824224
+    },
+    "patience": 8,
+    "max_epochs": 40,
+    "lstm_best_epoch": 5,
+    "gru_best_epoch": 5
+  }
+}

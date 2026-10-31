@@ -1,0 +1,6 @@
+feature_group,feature_count,lr_val_balanced_acc_pct,lr_val_macro_f1_pct,lr_test_balanced_acc_pct,lr_test_macro_f1_pct,lgb_val_balanced_acc_pct,lgb_val_macro_f1_pct,lgb_test_balanced_acc_pct,lgb_test_macro_f1_pct
+Group 1: Price & Momentum (15),15,33.63,31.81,35.3,30.25,33.86,33.01,33.18,31.11
+Group 2: Volatility & Range (6),6,36.61,32.78,40.66,35.58,32.83,30.71,35.19,33.91
+Group 3: Volume & Liquidity (3),3,32.38,31.13,31.66,29.8,33.28,32.93,32.8,32.75
+Group 4: Market Breadth & Macro (3),3,33.72,27.06,35.19,32.23,33.19,32.77,33.36,33.46
+Group 5: Combined All Features (27),27,36.54,35.74,36.55,34.8,31.08,29.3,33.0,32.72

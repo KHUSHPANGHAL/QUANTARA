@@ -1,0 +1,6 @@
+fold_name,test_window,train_samples,test_samples,market_regime,test_mean_forward_return_pct,actual_up_pct,actual_hold_pct,actual_down_pct,majority_baseline_bal_acc_pct,lr_balanced_accuracy_pct,lr_macro_f1_pct,lr_brier_score
+Fold 1: 2022 Shock,2022-01-01 to 2022-12-31,9712,1816,Global inflation & rate-hiking cycle correction,1.13,44.82,20.98,34.2,33.33,34.71,31.09,0.6764
+Fold 2: 2023 Recovery,2023-01-01 to 2023-12-31,11696,1792,Broad market post-correction recovery,1.35,45.93,28.07,26.0,33.33,31.41,24.54,0.6887
+Fold 3: 2024 Pre-Election Bull,2024-01-01 to 2024-09-23,13656,1264,Strong domestic equity liquidity bull run,2.65,53.88,26.11,20.02,33.33,34.07,31.32,0.6812
+Fold 4: 2024-2025 (Validation),2024-10-24 to 2025-09-19,15088,1640,Challenging sideways consolidation regime,0.15,33.78,35.12,31.1,33.33,36.45,35.67,0.6646
+Fold 5: 2025-2026 (Reused Test),2025-10-23 to 2026-09-22,17064,1648,Market downturn / bear correction regime,-1.46,29.07,29.31,41.63,33.33,37.77,35.59,0.6648

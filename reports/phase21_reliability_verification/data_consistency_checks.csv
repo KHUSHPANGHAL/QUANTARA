@@ -1,0 +1,9 @@
+check_item,scope,expected_value,actual_value,status,notes
+Stock Universe Consistency across Data Files,Raw vs Train/Val/Test Splits,"BHARTIARTL.NS, HDFCBANK.NS, ICICIBANK.NS, INFY.NS, ITC.NS, RELIANCE.NS, SBIN.NS, TCS.NS","BHARTIARTL.NS, HDFCBANK.NS, ICICIBANK.NS, INFY.NS, ITC.NS, RELIANCE.NS, SBIN.NS, TCS.NS",PASSED,Exact 8-stock list matches across all underlying data files. Contains ITC.NS (NOT LT.NS).
+Documentation Symbol Discrepancy (ITC vs LT),Reports vs Actual Code/Data,Documentation states actual data symbol (ITC),"Phase 15B, 17, 19, 20 reports repeatedly stated 'LT' in text description",DISCREPANCY_IDENTIFIED,Textual documentation typo inherited from earlier phase notes. Underlying code and models executed 100% on ITC.NS.
+Raw Data Date Range,data/raw/multi_stock_historical.csv,2016-10-24 to 2026-10-23 (10 calendar years),2016-10-24 to 2026-10-23,PASSED,"Total trading sessions: 2472 days, total rows: 19776"
+Missing / Null Values in Historical Data,All columns in multi_stock_historical.csv,0 nulls,0 nulls,PASSED,Zero missing values across OHLCV and metadata.
+Duplicate Date-Symbol Observations,Date + Symbol uniqueness,0 duplicates,0 duplicates,PASSED,Strict 1-to-1 mapping for each stock on every trading session.
+Price Bar Geometric Validity (OHLC),"High >= max(Open, Close) & Low <= min(Open, Close)",0 invalid bars,"High<Low: 0, Open invalid: 0, Close invalid: 0",PASSED,All price bars obey authentic bar geometry.
+Non-Negative Volume Check,Volume >= 0,0 invalid,0 negative volume rows,PASSED,All trade volumes are authentic non-negative values.
+Chronological Split Non-Overlap,"Train, Validation, Test Splits",Strict temporal ordering: Train < Validation < Test,Train: 2017-01-03 to 2024-09-23 | Val: 2024-10-24 to 2025-09-19 | Test: 2025-10-23 to 2026-09-22,PASSED,Purged 20-session embargo gap between splits prevents label leakage.

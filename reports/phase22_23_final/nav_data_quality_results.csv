@@ -1,0 +1,8 @@
+check_id,check_name,observed_value,passing_criteria,status
+NAV_Q1,Historical Record Count,4302,> 4000 daily observations,VERIFIED_PASSED
+NAV_Q2,Duplicate Date Check,0,0 duplicates,VERIFIED_PASSED
+NAV_Q3,Missing / Null Check,0,0 nulls,VERIFIED_PASSED
+NAV_Q4,Non-Positive Price Check,0,0 non-positive NAVs,VERIFIED_PASSED
+NAV_Q5,Max Single-Day Drop,-0.2408%,> -1.0%,VERIFIED_PASSED
+NAV_Q6,Max Single-Day Gain,0.3276%,< 1.0%,VERIFIED_PASSED
+NAV_Q7,Distribution Structure,Direct Growth Option (100% Retained in NAV),Growth option without dividend leakage,VERIFIED_PASSED

@@ -1,0 +1,90 @@
+{
+  "pipeline_version": "v2_execution_aligned",
+  "parameters": {
+    "starting_capital": 100000.0,
+    "max_positions": 3,
+    "max_hold_sessions": 5,
+    "slippage_pct": 0.0005,
+    "buy_statutory_fee_pct": 0.001544,
+    "sell_statutory_fee_pct": 0.001394,
+    "round_trip_friction_pct": 0.003937,
+    "fee_schedule_details": {
+      "brokerage_pct": 0.0003,
+      "stt_buy_pct": 0.001,
+      "stt_sell_pct": 0.001,
+      "exchange_turnover_pct": 3.25e-05,
+      "sebi_turnover_pct": 1e-06,
+      "stamp_duty_buy_pct": 0.00015,
+      "gst_rate": 0.18,
+      "slippage_pct": 0.0005
+    },
+    "cash_yield_annual_assumed": 0.065,
+    "cash_benchmark_note": "Assumed 6.50% annualized yield (based on RBI repo benchmark; actual retail cash rates vary)",
+    "selected_thresholds": {
+      "logistic_regression": 0.35,
+      "lightgbm": 0.333
+    },
+    "dividend_accounting_status": "UNVERIFIED (Primary Exchange Records Unavailable)",
+    "dividend_accounting_methodology": "Exact ex-date ownership entitlement. Shares held across cum-date close (entry_date < ex_date) are credited dividend cash on ex-date, including positions sold at ex-date open.",
+    "dividend_data_limitation": "Dividends are mathematically inferred from unadjusted vs adjusted price step-changes in multi_stock_historical.csv. Primary exchange filings (NSE/BSE notices, official payment dates) are unavailable offline. Cash availability lag between ex-date and payment date is unmodeled.",
+    "start_date": "2025-10-23",
+    "end_date": "2026-10-23",
+    "total_trading_sessions": 248
+  },
+  "logistic_regression": {
+    "starting_capital": 100000.0,
+    "final_equity": 81273.22977559117,
+    "total_return_pct": -18.726770224408828,
+    "cagr_pct": -18.998127314813885,
+    "max_drawdown_pct": 30.37248392904172,
+    "annualized_volatility_pct": 17.654504159568884,
+    "sharpe_ratio": -1.4615264082584196,
+    "total_trades_completed": 120,
+    "win_rate_pct": 40.0,
+    "profit_factor": 0.627072379114943,
+    "total_commissions_paid": 9620.968075397981,
+    "total_dividends_received": 2967.0979
+  },
+  "lightgbm": {
+    "starting_capital": 100000.0,
+    "final_equity": 76496.38695855787,
+    "total_return_pct": -23.503613041442133,
+    "cagr_pct": -23.83347113713897,
+    "max_drawdown_pct": 29.723020500434753,
+    "annualized_volatility_pct": 16.881178946832538,
+    "sharpe_ratio": -1.900825952643072,
+    "total_trades_completed": 190,
+    "win_rate_pct": 43.15789473684211,
+    "profit_factor": 0.6415383125726322,
+    "total_commissions_paid": 15724.880482873323,
+    "total_dividends_received": 2913.9991
+  },
+  "buy_and_hold_benchmark": {
+    "starting_capital": 100000.0,
+    "final_equity": 85547.160424789,
+    "total_return_pct": -14.452839575210993,
+    "cagr_pct": -14.667957606282634,
+    "max_drawdown_pct": 21.70897985625359,
+    "annualized_volatility_pct": 13.235327222892773,
+    "sharpe_ratio": -1.6080149698976722,
+    "total_trades_completed": 8,
+    "win_rate_pct": 25.0,
+    "profit_factor": 0.03484072489350319,
+    "total_commissions_paid": 262.7452756779256,
+    "total_dividends_received": 1934.0488
+  },
+  "cash_benchmark": {
+    "starting_capital": 100000.0,
+    "final_equity": 106393.59579110258,
+    "total_return_pct": 6.393595791102576,
+    "cagr_pct": 6.500000000002126,
+    "max_drawdown_pct": 0.0,
+    "annualized_volatility_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "total_trades_completed": 0,
+    "win_rate_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_commissions_paid": 0.0,
+    "total_dividends_received": 0.0
+  }
+}
